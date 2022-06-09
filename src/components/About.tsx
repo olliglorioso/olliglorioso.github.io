@@ -5,7 +5,7 @@ export default function About() {
     return <div>
         <br />
         <Typography>
-            Coming sooner or later...
+            Coming sooner or later... (About)
         </Typography>
     </div>
 }

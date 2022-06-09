@@ -5,7 +5,7 @@ export default function Blog() {
     return <div>
         <br />
         <Typography>
-            Coming sooner or later...
+            Coming sooner or later... (Blog)
         </Typography>
     </div>
 }
