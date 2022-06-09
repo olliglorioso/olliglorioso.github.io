@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ButtonAppBar from './components/ButtonAppBar';
+import Blog from './components/Blog';
+import About from "./components/About"
 
 function App() {
+  const [view, setView] = useState("About")
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Coming soon. ~ Olli Glorioso</p>
-      </header>
+    <div >
+      <ButtonAppBar view={view} setView={setView}/>
+      {view === "Blog" ? <Blog /> : <></>}
+      {view === "About" ? <About /> : <></>}
     </div>
   );
 }
