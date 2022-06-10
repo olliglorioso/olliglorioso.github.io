@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,7 +13,6 @@ interface Props {
   setView: any
 }
 
-
 export default function ButtonAppBar({ view, setView }: Props) {
   const isMobile = () =>  {
     let check = false;
@@ -24,7 +23,8 @@ export default function ButtonAppBar({ view, setView }: Props) {
   const copy = () => {
     navigator.clipboard.writeText("Olli Glorioso")
   }
-
+  const iconSize = mobile ? 18 : 30
+  const socialIcon = { height: iconSize, width: iconSize, marginRight: iconSize / 3 }
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: "#CDC2AE" }} >
@@ -37,9 +37,10 @@ export default function ButtonAppBar({ view, setView }: Props) {
             </Button> 
           </div>
           <div>
-            <SocialIcon url="https://github.com/olliglorioso" style={{ height: 30, width: 30, marginRight: 10 }} />
-              <SocialIcon url="https://www.linkedin.com/in/olliglorioso/" style={{ height: 30, width: 30, marginRight: 10 }} />
-              <SocialIcon url="https://twitter.com/olliglorioso" style={{ height: 30, width: 30, marginRight: 10 }} />
+              <SocialIcon url="https://github.com/olliglorioso" target="_blank" style={socialIcon}  />
+              <SocialIcon url="https://www.linkedin.com/in/olliglorioso/" target="_blank" style={socialIcon} />
+              <SocialIcon url="https://twitter.com/olliglorioso" target="_blank" style={socialIcon} />
+              <SocialIcon url="mailto: olli.glorioso@gmail.com" target="_blank" style={socialIcon} />
           </div>
           <div>
             
@@ -48,6 +49,7 @@ export default function ButtonAppBar({ view, setView }: Props) {
                 <Button sx={{ color: "black" }}>Resume</Button>
                 <Button onClick={() => setView("Blog")} sx={{ color: view === "Blog" ? "white" : "black"}}>Blog</Button>
                 <Button onClick={() => setView("About")} sx={{ color: view === "About" ? "white" : "black" }}>About</Button>
+                <Button onClick={() => setView("Projects")} sx={{ color: view === "Projects" ? "white" : "black" }}>Projects</Button>
               </>
               : <CollapseButton setView={setView} view={view} />
             }

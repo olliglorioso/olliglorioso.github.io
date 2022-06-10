@@ -94,6 +94,7 @@ export default function MenuListComposition({ setView, view }: Props) {
                     <MenuItem sx={{ color: "black" }} onClick={e => handleClose(e, "Resume")}>Resume</MenuItem>
                     <MenuItem sx={{ color: view === "Blog" ? "white" : "black"}} onClick={e => handleClose(e, "Blog")}>Blog</MenuItem>
                     <MenuItem sx={{ color: view === "About" ? "white" : "black" }} onClick={e => handleClose(e, "About")}>About</MenuItem>
+                    <MenuItem sx={{ color: view === "Projects" ? "white" : "black" }} onClick={e => handleClose(e, "Projects")}>Projects</MenuItem>
                   </MenuList>
                 </ClickAwayListener>
               </Paper>
