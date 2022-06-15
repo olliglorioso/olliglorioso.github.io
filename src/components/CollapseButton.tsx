@@ -91,7 +91,9 @@ export default function MenuListComposition({ setView, view }: Props) {
                     onKeyDown={handleListKeyDown}
                     sx={{ backgroundColor: "#CDC2AE" }}
                   >
-                    <MenuItem sx={{ color: "black" }} onClick={e => handleClose(e, "Resume")}>Resume</MenuItem>
+                    <MenuItem sx={{ color: "black" }} >
+                      <a href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" style={{ color: "black", textDecoration: "none" }} >Resume</a>
+                    </MenuItem>
                     <MenuItem sx={{ color: view === "Blog" ? "white" : "black"}} onClick={e => handleClose(e, "Blog")}>Blog</MenuItem>
                     <MenuItem sx={{ color: view === "About" ? "white" : "black" }} onClick={e => handleClose(e, "About")}>About</MenuItem>
                     <MenuItem sx={{ color: view === "Projects" ? "white" : "black" }} onClick={e => handleClose(e, "Projects")}>Projects</MenuItem>
