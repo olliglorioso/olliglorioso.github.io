@@ -18,6 +18,8 @@ export default function Model({ ...props }) {
     <group 
       onClick={() => {
         api.velocity.set((Math.random() - 0.5) * 8, (Math.random()) * 8 , 0)
+        // add rotation
+        api.angularVelocity.set((Math.random() - 0.5) * 4, (Math.random() - 0.5) * 4, (Math.random() - 0.5) * 4)
 
       }}
       ref={group} 
