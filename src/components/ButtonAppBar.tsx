@@ -30,7 +30,7 @@ export default function ButtonAppBar({ view, setView }: Props) {
   
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} component="div">
       <AppBar position="static" sx={{ backgroundColor: "#CDC2AE" }} >
         <Toolbar component={"div"} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
           <div>
