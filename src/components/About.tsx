@@ -52,8 +52,11 @@ const Plane = () => {
    )
 }
 
+interface Props {
+   darkMode: boolean;
+}
 
-export default function App() {
+export default function About() {
   
   return (
     <div style={{ height: "100vh", width: "100vw", marginTop: 10, marginLeft: "auto", marginRight: 10}}>

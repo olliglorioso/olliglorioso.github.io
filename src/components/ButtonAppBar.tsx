@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -7,10 +7,17 @@ import Button from '@mui/material/Button';
 import { SocialIcon } from "react-social-icons"
 import "./styles.css"
 import CollapseButton from "./CollapseButton"
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
+import IconButton from '@mui/material/IconButton';
+import { ColorModeContext } from "../App"
+import { useTheme } from '@mui/material/styles';
+
+
 
 interface Props {
   view: string,
-  setView: any
+  setView: any,
 }
 
 export default function ButtonAppBar({ view, setView }: Props) {
@@ -26,16 +33,16 @@ export default function ButtonAppBar({ view, setView }: Props) {
   }
   const iconSize = mobile ? 18 : 30
   const socialIcon = { height: iconSize, width: iconSize, marginRight: iconSize / 3 }
-
-  
+  const colorMode = useContext(ColorModeContext)
+  const theme = useTheme()
 
   return (
     <Box sx={{ flexGrow: 1 }} component="div">
-      <AppBar position="static" sx={{ backgroundColor: "#CDC2AE" }} >
+      <AppBar position="static" sx={{ backgroundColor: "background.paper" }} >
         <Toolbar component={"div"} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
           <div>
             <Button onClick={() => copy()} sx={{ flexGrow: 0, color: "black" }}>
-              <Typography variant={mobile ? "inherit" : "h6"} >
+              <Typography variant={mobile ? "inherit" : "h6"} sx={{ color: "text.primary"}} >
                 OLLI GLORIOSO
               </Typography>
             </Button> 
@@ -51,11 +58,14 @@ export default function ButtonAppBar({ view, setView }: Props) {
             {!mobile ?
               <>
                 <Button sx={{ color: "black"}}>
-                  <a href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" style={{ color: "black", textDecoration: "none" }} >Resume</a>
+                  <a href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" style={{ color: theme.palette.text.primary, textDecoration: "none" }} >Resume</a>
                 </Button>
-                <Button onClick={() => setView("Blog")} sx={{ color: view === "Blog" ? "white" : "black"}}>Blog</Button>
-                <Button onClick={() => setView("About")} sx={{ color: view === "About" ? "white" : "black" }}>About</Button>
-                <Button onClick={() => setView("Projects")} sx={{ color: view === "Projects" ? "white" : "black" }}>Projects</Button>
+                <Button onClick={() => setView("Blog")} sx={{ color: view === "Blog" ? "text.secondary" : "text.primary"}}>Blog</Button>
+                <Button onClick={() => setView("About")} sx={{ color: view === "About" ? "text.secondary" : "text.primary" }}>About</Button>
+                <Button onClick={() => setView("Projects")} sx={{ color: view === "Projects" ? "text.secondary" : "text.primary" }}>Projects</Button>
+                <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
+                  {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+                </IconButton>
               </>
               : <CollapseButton setView={setView} view={view} />
             }
