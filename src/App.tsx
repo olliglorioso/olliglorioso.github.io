@@ -50,21 +50,22 @@ export const ColorModeContext = React.createContext({ toggleColorMode: () => {} 
 
 
 function App() {
+  const originalMode = localStorage.getItem("colorMode") === "dark" ? "dark" : "light"
   const [view, setView] = useState("About")
-  const [mode, setMode] = React.useState<PaletteMode>('light');
+  const [mode, setMode] = React.useState<PaletteMode>(originalMode);
   const colorMode = React.useMemo(
     () => ({
       // The dark mode switch would invoke this method
       toggleColorMode: () => {
-        setMode((prevMode: PaletteMode) =>
-          prevMode === 'light' ? 'dark' : 'light',
-        );
-        localStorage.setItem('colorMode', mode);
+        setMode((prevMode: PaletteMode) => {
+          localStorage.setItem('colorMode', prevMode === "dark" ? "light" : "dark")
+          return prevMode === 'light' ? 'dark' : 'light'
+        })
+        
       },
     }),
     [],
   );
-  console.log(<CssBaseline />)
 
   // Update the theme only if the mode changes
   const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
