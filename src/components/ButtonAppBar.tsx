@@ -10,11 +10,13 @@ import CollapseButton from "./CollapseButton"
 import Brightness4Icon from "@mui/icons-material/Brightness4"
 import Brightness7Icon from "@mui/icons-material/Brightness7"
 import IconButton from "@mui/material/IconButton"
-import { ColorModeContext } from "../App"
+import Switch from "@mui/material/Switch"
+import { ColorModeContext } from "../utils/contexts"
 import { useTheme } from "@mui/material/styles"
 import { isMobile } from "../utils/random"
 import { urls } from "../utils/constants"
-
+import { GlobalSettingsContext } from "../utils/contexts"
+import { Tooltip } from "@mui/material"
 interface Props {
   view: string,
   setView: Dispatch<SetStateAction<string>>,
@@ -31,6 +33,7 @@ export default function ButtonAppBar({ view, setView }: Props) {
     const colorMode = useContext(ColorModeContext)
     const theme = useTheme()
     const isDark = theme.palette.background.default === "#000000"
+    const { hideExtras, toggleHideExtras } = useContext(GlobalSettingsContext)
 
     return (
         <Box sx={{ flexGrow: 1 }} component="div">
@@ -47,7 +50,10 @@ export default function ButtonAppBar({ view, setView }: Props) {
                         {Object.values(urls).map((url, index) => <SocialIcon url={url} key={index} style={socialIcon} />)}
                     </div>
                     <div>
-            
+                        <Tooltip title="Hide extras.">
+                            <Switch checked={!hideExtras} color="default" onChange={() => toggleHideExtras()} sx={{ opacity: 100 }} />
+                        </Tooltip>
+                        
                         {!mobile ?
                             <>
                                 <Button sx={{ color: "black"}}>
@@ -56,9 +62,11 @@ export default function ButtonAppBar({ view, setView }: Props) {
                                 <Button onClick={() => setView("Blog")} sx={{ color: view === "Blog" ? "text.secondary" : "text.primary"}}>Blog</Button>
                                 <Button onClick={() => setView("About")} sx={{ color: view === "About" ? "text.secondary" : "text.primary" }}>About</Button>
                                 <Button onClick={() => setView("Projects")} sx={{ color: view === "Projects" ? "text.secondary" : "text.primary" }}>Projects</Button>
-                                <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
-                                    {isDark ? <Brightness7Icon /> : <Brightness4Icon />}
-                                </IconButton>
+                                <Tooltip title={isDark ? "Toggle light mode." : "Toggle dark mode."}>
+                                    <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
+                                        {isDark ? <Brightness7Icon /> : <Brightness4Icon />}
+                                    </IconButton>
+                                </Tooltip>
                             </>
                             : <CollapseButton setView={setView} view={view} />
                         }

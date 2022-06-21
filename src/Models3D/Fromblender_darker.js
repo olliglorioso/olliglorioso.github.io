@@ -9,10 +9,11 @@ import { useCylinder } from "@react-three/cannon"
 import { audios } from "../assets/audios.js"
 
 export default function Model({ ...props }) {
+    const { random, floor } = Math
     let { nonono, dreadful } = audios
     const group = useRef()
     const { nodes, materials } = useGLTF("/fromblender_darker.glb")
-    const [ref, api] = useCylinder(() => ({ mass: 1}))
+    const [ref, api] = useCylinder(() => ({ mass: 1 }))
 
     return (
         <group 
@@ -23,9 +24,9 @@ export default function Model({ ...props }) {
             scale={[1, 1, 1]}
       
             onClick={() => {
-                api.velocity.set((Math.random() - 0.5) * 8, (Math.random()) * 8 , 0)
-                api.angularVelocity.set((Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10)
-                const randomNum = Math.floor(Math.random() * 4)
+                api.velocity.set((random() - 0.5) * 8, (random()) * 8 , 0)
+                api.angularVelocity.set((random() - 0.5) * 10, (random() - 0.5) * 10, (random() - 0.5) * 10)
+                const randomNum = floor(random() * 4)
                 if (randomNum === 0) {
                     nonono.play()
                 } else if (randomNum === 1) {

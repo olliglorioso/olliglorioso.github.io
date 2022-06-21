@@ -7,53 +7,17 @@ import Projects from "./components/Projects"
 import CssBaseline from "@mui/material/CssBaseline"
 // Dark mode stuff
 import { ThemeProvider, createTheme } from "@mui/material/styles"
-
+import { designConfigure } from "./utils/random"
+import { ColorModeContext, GlobalSettingsContext } from "./utils/contexts"
 type PaletteMode = "light" | "dark";
-
-const getDesignTokens = (mode: string) => ({
-    palette: {
-        ...(mode === "dark"
-            ? {
-                // palette values for light mode
-                background: {
-                    default: "#000000",
-                    paper: "#000000",
-                },
-                text: {
-                    primary: "#FFFFFF",
-                    secondary: "#808080",
-                },
-            }
-            : {
-                // palette values for dark mode
-                background: {
-                    default: "#ECE5C7",
-                    paper: "#CDC2AE",
-                },
-                text: {
-                    primary: "#000000",
-                    secondary: "#808080",
-                },
-            }),
-    },
-    components: {
-        MuiCssBaseline: {
-            styleOverrides: {
-                body: {
-                    backgroundColor: mode === "dark" ? "#212121" : "#ECE5C7",
-                }
-            }
-        }
-    }
-})
-
-export const ColorModeContext = React.createContext({ toggleColorMode: () => {} })
-
 
 function App() {
     const originalMode = localStorage.getItem("colorMode") === "dark" ? "dark" : "light"
+    const originalHideExtras = localStorage.getItem("hideExtras") === "true" ? true : false
     const [view, setView] = useState("About")
     const [mode, setMode] = React.useState<PaletteMode>(originalMode)
+    const [globalSettings, setGlobalSettings] = useState<{ hideExtras: boolean }>({ hideExtras: originalHideExtras })
+
     const colorMode = React.useMemo(
         () => ({
             // The dark mode switch would invoke this method
@@ -68,21 +32,34 @@ function App() {
         [],
     )
 
+    const toggleTheme = () => {
+        setGlobalSettings({ hideExtras: !globalSettings.hideExtras })
+        localStorage.setItem("hideExtras", String(!globalSettings.hideExtras))
+    }
+
+    const value = {
+        hideExtras: globalSettings.hideExtras,
+        toggleHideExtras: toggleTheme,
+    }
+
     // Update the theme only if the mode changes
-    const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode])
+    const theme = React.useMemo(() => createTheme(designConfigure(mode)), [mode])
 
     return (
-        <ColorModeContext.Provider value={colorMode}>
-            <ThemeProvider theme={theme}>
-                <div >
-                    <ButtonAppBar view={view} setView={setView}  />
-                    {view === "Blog" ? <Blog  /> : <></>}
-                    {view === "About" ? <About  /> : <></>}
-                    {view === "Projects" ? <Projects  /> : <></>}
-                </div>
-                <CssBaseline />
-            </ThemeProvider>
-        </ColorModeContext.Provider>
+        <GlobalSettingsContext.Provider value={value}>
+            <ColorModeContext.Provider value={colorMode}>
+                <ThemeProvider theme={theme}>
+                    <div >
+                        <ButtonAppBar view={view} setView={setView}  />
+                        {view === "Blog" ? <Blog  /> : <></>}
+                        {view === "About" ? <About  /> : <></>}
+                        {view === "Projects" ? <Projects  /> : <></>}
+                    </div>
+                    <CssBaseline />
+                </ThemeProvider>
+            </ColorModeContext.Provider>
+        </GlobalSettingsContext.Provider>
+        
     
     )
 }
