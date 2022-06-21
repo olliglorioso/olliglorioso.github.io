@@ -32,6 +32,7 @@ export default function Model({ ...props }) {
       {...props} 
       dispose={null} 
       position={[0, 2, 0]}
+      scale={[1, 1, 1]}
       
       onClick={() => {
         api.velocity.set((Math.random() - 0.5) * 8, (Math.random()) * 8 , 0)
