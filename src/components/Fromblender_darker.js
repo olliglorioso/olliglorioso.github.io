@@ -22,7 +22,7 @@ export default function Model({ ...props }) {
   let dreadful_s = new Audio(dreadful)
 
   const group = useRef()
-  const { nodes, materials } = useGLTF('/fromblender.glb')
+  const { nodes, materials } = useGLTF('/fromblender_darker.glb')
   const [ref, api] = useCylinder(() => ({ mass: 1}))
   const theme = props.theme
 

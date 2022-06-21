@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Physics, usePlane } from '@react-three/cannon'
 import Model from './Fromblender'
+import DarkModel from './Fromblender_darker'
 import { useTheme } from '@mui/material/styles';
 
 
@@ -61,26 +62,25 @@ interface Props {
 export default function About() {
    const theme = useTheme()
    const isDark = theme.palette.background.default === '#000000'
-  
-  return (
-    <div style={{ height: "100vh", width: "100vw", marginTop: 10, marginLeft: "auto", marginRight: 10}}>
-      <Canvas shadows>
-         <directionalLight 
-            position={[10, 10, 5]} 
-            color={isDark ? '#75200E' : '#000000'}
-            intensity={isDark ? 0.3 : 2} 
-         />
-         <directionalLight 
-            position={[-10, -10, -5]} 
-            intensity={isDark ? 0.3 : 1}
-            castShadow 
-         />
-         <Physics>
-            <Plane />
-            <Model theme={theme} />
-         </Physics>
-         
-      </Canvas>
-    </div>
+   return (
+      <div style={{ height: "90vh", width: "100vw", marginTop: 10, marginLeft: "auto", marginRight: 10}}>
+         <Canvas shadows>
+            <directionalLight 
+               position={[10, 10, 5]} 
+               color={isDark ? '#75200E' : 'white'}
+               intensity={isDark ? 0.3 : 2} 
+            />
+            <directionalLight 
+               position={[-10, -10, -5]} 
+               intensity={isDark ? 0.6 : 1}
+               castShadow 
+            />
+            <Physics>
+               <Plane />
+               {isDark ? <DarkModel theme={theme} /> : <Model theme={theme} />}
+            </Physics>
+            
+         </Canvas>
+      </div>
   )
 }
