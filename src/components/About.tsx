@@ -27,7 +27,7 @@ export default function About() {
                             />
                             <directionalLight 
                                 position={[-10, -10, -5]} 
-                                intensity={isDark ? 0.6 : 1}
+                                intensity={isDark ? 0.6 : 5}
                                 castShadow 
                             />
                             <Physics
