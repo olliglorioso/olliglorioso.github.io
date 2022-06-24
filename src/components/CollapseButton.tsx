@@ -18,18 +18,10 @@ export default function MenuListComposition({ setView, view }: Props) {
     const [open, setOpen] = React.useState<boolean>(false)
     const anchorRef = React.useRef<HTMLButtonElement>(null)
 
-    const handleToggle = () => {
-        setOpen((prevOpen) => !prevOpen)
-    }
+    const handleToggle = () => setOpen((prevOpen) => !prevOpen)
 
     const handleClose = (event: Event | React.SyntheticEvent, st: string) => {
-        if (
-            anchorRef.current &&
-      anchorRef.current.contains(event.target as HTMLElement)
-        ) {
-            return
-        }
-
+        if (anchorRef.current && anchorRef.current.contains(event.target as HTMLElement)) return
         setOpen(false)
         if (st !== "Nothing") setView(st)
     }
