@@ -12,12 +12,13 @@ import { ColorModeContext, GlobalSettingsContext } from "./utils/contexts"
 type PaletteMode = "light" | "dark";
 
 function App() {
-    let originalMode = localStorage.getItem("colorMode") === "dark" ? "dark" : "light"
+    let originalMode = "light"
     const originalHideExtras = localStorage.getItem("hideExtras") === "true" ? true : false
     if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
         // dark mode
         originalMode = "dark"
     }
+    originalMode = localStorage.getItem("colorMode") === "dark" ? "dark" : "light"
     const [view, setView] = useState("About")
     const [mode, setMode] = React.useState<PaletteMode>(originalMode as PaletteMode)
     const [globalSettings, setGlobalSettings] = useState<{ hideExtras: boolean }>({ hideExtras: originalHideExtras })

@@ -1,23 +1,15 @@
 import React, { useEffect, useState } from "react"
 import { Typography } from "@mui/material"
-import axios from "axios"
 import Markdown from "./Markdown"
+import { fetchMarkdown } from "../utils/random"
 
 export default function Blog() {
     const [source, setSource] = useState("")
-    const fetchBlogsTexts = async () => {
-        try {
-            const url = "https://raw.githubusercontent.com/olliglorioso/olliglorioso.github.io-mds/main/blogs/test.md"
-            const res = await axios.get(url)
-            const d = res.data
-            setSource(d)
-        } catch (e) {
-            throw new Error("Failed to fetch blog texts. Check your internet connection.")
-        }
-    }
 
     useEffect(() => {
-        fetchBlogsTexts()
+        fetchMarkdown("https://raw.githubusercontent.com/olliglorioso/olliglorioso.github.io-mds/main/blogs/test.md").then((res) => {
+            setSource(res)
+        })
     }, [])
     return (
         <div style={{ padding: 10 }}>
