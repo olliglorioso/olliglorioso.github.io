@@ -1,17 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.de246289.css",
-    "main.js": "/static/js/main.9855b34c.js",
+    "main.js": "/static/js/main.88a8681c.js",
     "static/js/787.55d68a59.chunk.js": "/static/js/787.55d68a59.chunk.js",
-    "static/media/nononosound.mp3": "/static/media/nononosound.dfa498413794ede150ce.mp3",
-    "static/media/gaspsound.mp3": "/static/media/gaspsound.5ef5881791b8fedfc742.mp3",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
-    "static/media/screamsound.mp3": "/static/media/screamsound.46951927bf9bc860eeb7.mp3",
     "service-worker.js": "/service-worker.js",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
-    "static/media/dreadfulsound.mp3": "/static/media/dreadfulsound.63b6e71e2fc323f0d83b.mp3",
-    "static/media/kicksound.mp3": "/static/media/kicksound.46f29a15373c71dfe898.mp3",
     "static/media/KaTeX_Main-Italic.ttf": "/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
     "static/media/KaTeX_AMS-Regular.woff": "/static/media/KaTeX_AMS-Regular.d562e886c52f12660a41.woff",
     "static/media/KaTeX_Main-BoldItalic.ttf": "/static/media/KaTeX_Main-BoldItalic.828abcb200061cffbaae.ttf",
@@ -23,7 +18,6 @@
     "static/media/KaTeX_Typewriter-Regular.ttf": "/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
     "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
     "static/media/KaTeX_Main-Bold.woff2": "/static/media/KaTeX_Main-Bold.39890742bc957b368704.woff2",
-    "static/media/punchsound.mp3": "/static/media/punchsound.ef339d5c7e96866dda4a.mp3",
     "static/media/KaTeX_SansSerif-Bold.ttf": "/static/media/KaTeX_SansSerif-Bold.5b49f4993ae22d7975b4.ttf",
     "static/media/KaTeX_SansSerif-Italic.ttf": "/static/media/KaTeX_SansSerif-Italic.b257a18c016f37ee4543.ttf",
     "static/media/KaTeX_Main-Italic.woff": "/static/media/KaTeX_Main-Italic.fd947498bc16392e76c2.woff",
@@ -72,11 +66,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.de246289.css.map": "/static/css/main.de246289.css.map",
-    "main.9855b34c.js.map": "/static/js/main.9855b34c.js.map",
+    "main.88a8681c.js.map": "/static/js/main.88a8681c.js.map",
     "787.55d68a59.chunk.js.map": "/static/js/787.55d68a59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de246289.css",
-    "static/js/main.9855b34c.js"
+    "static/js/main.88a8681c.js"
   ]
 }

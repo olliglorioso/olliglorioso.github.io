@@ -26,7 +26,7 @@ export default function About() {
     return (
         <div style={{ paddingLeft: 10}}>
             <Markdown source={source} />
-            {
+            {/* {
                 !hideExtras
                     ? <div style={{ height: "75vh", width: "95vw"}}>
                         <Canvas shadows>
@@ -55,7 +55,7 @@ export default function About() {
                         </Typography>
                     </div>
                     
-            }
+            } */}
         </div>
     )
 }
