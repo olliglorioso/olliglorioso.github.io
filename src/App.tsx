@@ -1,74 +1,101 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-import React, { useState } from "react"
-import ButtonAppBar from "./components/ButtonAppBar"
-import Blog from "./components/Blog"
-import About from "./components/About"
-import Projects from "./components/Projects"
-import CssBaseline from "@mui/material/CssBaseline"
-// Dark mode stuff
-import { ThemeProvider, createTheme } from "@mui/material/styles"
-import { designConfigure } from "./utils/random"
-import { ColorModeContext, GlobalSettingsContext } from "./utils/contexts"
-type PaletteMode = "light" | "dark";
+import React, { useState } from 'react';
+import './App.css'
+import { SocialIcon } from 'react-social-icons'
+import { socials } from './constants';
+import { AnimateKeyframes } from 'react-simple-animate'
+
+const style = { height: 150, width: 150 }
+const mR = { marginRight: 9 }
+const mL = { marginLeft: 9 }
 
 function App() {
-    let originalMode = "light"
-    const originalHideExtras = localStorage.getItem("hideExtras") === "true" ? true : false
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        // dark mode
-        originalMode = "dark"
-    }
-    originalMode = localStorage.getItem("colorMode") === "dark" ? "dark" : "light"
-    const [view, setView] = useState("About")
-    const [mode, setMode] = React.useState<PaletteMode>(originalMode as PaletteMode)
-    const [globalSettings, setGlobalSettings] = useState<{ hideExtras: boolean }>({ hideExtras: originalHideExtras })
+  const [play1, setPlay1] = useState(false)
+  const [play2, setPlay2] = useState(false)
+  const [play3, setPlay3] = useState(false)
+  const [play4, setPlay4] = useState(false)
+  const props = { play: true, duration: 2, iterationCount: 'infinite' }
 
-
-    
-    const colorMode = React.useMemo(
-        () => ({
-            // The dark mode switch would invoke this method
-            toggleColorMode: () => {
-                setMode((prevMode: PaletteMode) => {
-                    localStorage.setItem("colorMode", prevMode === "dark" ? "light" : "dark")
-                    return prevMode === "light" ? "dark" : "light"
-                })
-        
-            },
-        }),
-        [],
-    )
-
-    const toggleTheme = () => {
-        setGlobalSettings({ hideExtras: !globalSettings.hideExtras })
-        localStorage.setItem("hideExtras", String(!globalSettings.hideExtras))
-    }
-
-    const value = {
-        hideExtras: globalSettings.hideExtras,
-        toggleHideExtras: toggleTheme,
-    }
-
-    // Update the theme only if the mode changes
-    const theme = React.useMemo(() => createTheme(designConfigure(mode)), [mode])
-
-    return (
-        <GlobalSettingsContext.Provider value={value}>
-            <ColorModeContext.Provider value={colorMode}>
-                <ThemeProvider theme={theme}>
-                    <div >
-                        <ButtonAppBar view={view} setView={setView}  />
-                        {view === "Blog" ? <Blog  /> : <></>}
-                        {view === "About" ? <About  /> : <></>}
-                        {view === "Projects" ? <Projects  /> : <></>}
-                    </div>
-                    <CssBaseline />
-                </ThemeProvider>
-            </ColorModeContext.Provider>
-        </GlobalSettingsContext.Provider>
-        
-    
-    )
+  return (
+    <div className='container'>
+      <div className='container_row'>
+        <div style={mR}>
+          <AnimateKeyframes
+            {...props}
+            pause={!play1}
+            keyframes={[
+              'transform: translateX(0px)',
+              'transform: translateX(-200px)',
+              'transform: translate(-200px, -200px)',
+              'transform: translate(0, -200px)',
+              'transform: translate(0)'
+            ]}
+          >
+            <SocialIcon url={socials[0]} 
+              style={style} 
+              onMouseOver={() => setPlay1(true)} 
+              onMouseOut={() => setPlay1(false)} 
+            />
+          </AnimateKeyframes>
+        </div>
+        <div style={mL}>
+          <AnimateKeyframes
+            {...props}
+            pause={!play2}
+            keyframes={[
+              'opacity: 1',
+              'opacity: 0',
+              'opacity: 1'
+            ]}
+          >
+            <SocialIcon 
+              url={socials[1]} 
+              style={style} 
+              onMouseOver={() => setPlay2(true)} 
+              onMouseOut={() => setPlay2(false)} 
+            />
+          </AnimateKeyframes>
+        </div>
+      </div>
+      <br />
+      <div className='container_row'>
+        <div style={mR}>
+          <AnimateKeyframes
+            {...props}
+            pause={!play3}
+            keyframes={[
+              'transform: rotate(0deg)',
+              'transform: rotate(360deg)',
+            ]}
+          >
+            <SocialIcon 
+              url={socials[2]} 
+              style={style} 
+              onMouseOver={() => setPlay3(true)} 
+              onMouseOut={() => setPlay3(false)} 
+            />
+          </AnimateKeyframes>
+        </div>
+        <div style={mL}>
+        <AnimateKeyframes
+            {...props}
+            pause={!play4}
+            keyframes={[
+              'transform: scaleY(1) scaleX(1)',
+              'transform: scaleY(1.25) scaleX(1.25)',
+              'transform: scaleX(1) scaleY(1)',
+            ]}
+          >
+            <SocialIcon 
+              url={socials[3]} 
+              style={style}
+              onMouseOver={() => setPlay4(true)} 
+              onMouseOut={() => setPlay4(false)} 
+            />
+          </AnimateKeyframes>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

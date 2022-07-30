@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+.container_row {
+    flex-direction: row;
+    display: flex;
+}
