@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./docs' react-scripts build"
+    "build": "BUILD_PATH='./docs' react-scripts build",
+    "lint": "eslint src/**/*.{ts,tsx,js,jsx}",
+    "fixint": "eslint src/**/*.{ts,tsx,js,jsx} --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -33,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-react": "^7.30.1"
   }
 }
