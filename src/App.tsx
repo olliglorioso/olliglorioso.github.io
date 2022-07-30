@@ -1,9 +1,8 @@
 import React, { useState } from "react"
 import "./App.css"
 import { SocialIcon } from "react-social-icons"
-import { socials } from "./constants"
 import { AnimateKeyframes } from "react-simple-animate"
-
+import { socials } from "./constants"
 const style = { height: 150, width: 150 }
 const mR = { marginRight: 9 }
 const mL = { marginLeft: 9 }
