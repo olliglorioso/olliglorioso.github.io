@@ -7,7 +7,7 @@ on:
 
 jobs:
   build_pipeline:
-    if: "contains(github.event.commits[0].message, '[build]'"
+    if: "contains(github.event.commits[0].message, '[build]')"
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
