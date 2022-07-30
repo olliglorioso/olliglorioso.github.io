@@ -1,0 +1,33 @@
+name: Build and publish to olliglorioso.github.io
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_pipeline:
+    if: "contains(github.event.commits[0].message, '[build]'"
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "18.0.0"
+          registry-url: "https://registry.npmjs.org"
+      - name: Install dependencies
+        run: npm install
+      - name: Build with tsc
+        run: npm run build
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Built by GH at .github/workflows/publish.yml" -a
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
