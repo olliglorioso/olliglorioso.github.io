@@ -23,7 +23,7 @@ function App() {
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
 			<div className="text" style={stuffColor}>Software engineering & data science.</div>
-			<div><a className="text" style={{ borderBottom: `1px solid ${stuffColor}`, ...stuffColor }} href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" >Download resume</a></div>
+			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" >Download resume</a></div>
 			<div className='container'>
 				<div className='container_row'>
 					<div style={mR}>
@@ -79,6 +79,7 @@ function App() {
 							<SocialIcon 
 								url={socials[2]} 
 								style={style} 
+								bgColor={isDark ? "#b3b3b3" : "#666666"}
 								onMouseOver={() => setPlay3(true)} 
 								onMouseOut={() => setPlay3(false)} 
 							/>
