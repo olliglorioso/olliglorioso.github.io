@@ -18,6 +18,7 @@ function App() {
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
 	const stuffColor = { color: isDark ? beige : brown }
+	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
 
 	return (
 		<div>
@@ -32,9 +33,9 @@ function App() {
 							pause={!play1}
 							keyframes={[
 								"transform: translateX(0px)",
-								"transform: translateX(-200px)",
-								"transform: translate(-200px, -200px)",
-								"transform: translate(0, -200px)",
+								`transform: translateX(${change})`,
+								`transform: translate(${change}, ${change})`,   // first is x
+								`transform: translate(0, ${change})`,
 								"transform: translate(0)"
 							]}
 						>
