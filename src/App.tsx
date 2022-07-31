@@ -17,7 +17,6 @@ function App() {
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
-
 	const stuffColor = { color: isDark ? beige : brown }
 
 	return (
