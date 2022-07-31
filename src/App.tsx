@@ -9,16 +9,22 @@ const props = { play: true, duration: 2, iterationCount: "infinite" }
 const mL = { marginLeft: 9 }
 
 function App() {
+	const beige = "#F5F5DC"
+	const brown = "#52341A"
+	const isDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+	if (isDark) document.body.setAttribute("style", `background: ${brown};`)
 	const [play1, setPlay1] = useState(false)
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
-	
+
+	const stuffColor = { color: isDark ? beige : brown }
+
 	return (
 		<div>
-			<div className="name_title">Olli Glorioso</div>
-			<div className="text">Software engineering & data science.</div>
-			<div><a className="text" style={{ borderBottom: "1px solid black" }} href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" >Download resume</a></div>
+			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
+			<div className="text" style={stuffColor}>Software engineering & data science.</div>
+			<div><a className="text" style={{ borderBottom: `1px solid ${stuffColor}`, ...stuffColor }} href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" >Download resume</a></div>
 			<div className='container'>
 				<div className='container_row'>
 					<div style={mR}>
@@ -53,6 +59,7 @@ function App() {
 							<SocialIcon 
 								url={socials[1]} 
 								style={style} 
+								bgColor={"black"}
 								onMouseOver={() => setPlay2(true)} 
 								onMouseOut={() => setPlay2(false)} 
 							/>
