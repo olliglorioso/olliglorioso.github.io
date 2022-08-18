@@ -24,8 +24,8 @@ function App() {
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
 			<div className="text" style={stuffColor}>Software engineering & data science.</div>
-			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`} download="olliglorioso_resume" >Download resume</a></div>
-			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/omakuva_isores.jpg`} >Picture of me</a></div>
+			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/CV_Olli_Glorioso.pdf`} download="olliglorioso_resume" >Download resume</a></div>
+			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/olliglorioso_pic.jpg`} >Picture of me</a></div>
 			<div className='container'>
 				<div className='container_row'>
 					<div style={mR}>
