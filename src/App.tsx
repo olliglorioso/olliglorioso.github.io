@@ -19,7 +19,7 @@ function App() {
 	const [play4, setPlay4] = useState(false)
 	const stuffColor = { color: isDark ? beige : brown }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
-	// build
+	// build2
 	return (
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
