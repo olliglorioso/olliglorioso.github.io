@@ -10,7 +10,7 @@ const mL = { marginLeft: 9 }
 
 function App() {
 	const beige = "#F5F5DC"
-	const brown = "#52341A"
+	const brown = "#151B54"
 	const isDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
 	if (isDark) document.body.setAttribute("style", `background: ${brown};`)
 	const [play1, setPlay1] = useState(false)
@@ -19,7 +19,7 @@ function App() {
 	const [play4, setPlay4] = useState(false)
 	const stuffColor = { color: isDark ? beige : brown }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
-	// build2
+	console.log(stuffColor)
 	return (
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
