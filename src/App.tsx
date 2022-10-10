@@ -10,15 +10,19 @@ const mL = { marginLeft: 9 }
 
 function App() {
 	const beige = "#F5F5DC"
-	const brown = "#151B54"
+	const brown = "#212196"
 	const isDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
 	if (isDark) document.body.setAttribute("style", `background: ${brown};`)
 	const [play1, setPlay1] = useState(false)
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
-	const stuffColor = { color: isDark ? beige : brown }
+	const stuffColor = { color: isDark ? beige : brown, fontFamily: "Courier New" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
+	let isMobile = false
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		isMobile = true
+	}
 	return (
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
