@@ -19,6 +19,7 @@ function App() {
 	const [play4, setPlay4] = useState(false)
 	const stuffColor = { color: isDark ? beige : brown, fontFamily: "Courier New" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
+	// Mobile not implemented yet.
 	let isMobile = false
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		isMobile = true
