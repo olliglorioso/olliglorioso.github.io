@@ -20,10 +20,10 @@ function App() {
 	const stuffColor = { color: isDark ? beige : brown, fontFamily: "Courier New" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
 	// Mobile not implemented yet.
-	let isMobile = false
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		isMobile = true
-	}
+	// let isMobile = false
+	// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	// 	isMobile = true
+	// }
 	return (
 		<div>
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
