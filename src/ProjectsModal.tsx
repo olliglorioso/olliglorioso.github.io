@@ -43,7 +43,7 @@ type GQLResponseT = {
 const getProjects = async () => {
 	const graphqlWithAuth = graphql.defaults({
 		headers: {
-			authorization: "token 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", // Token is only for accessing public repos in my account
+			authorization: "token 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", // Token is only for accessing public repos in my account
 		},
 	})
 	const response = await graphqlWithAuth<GQLResponseT>(
