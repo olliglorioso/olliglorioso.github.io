@@ -20,8 +20,6 @@ const style = {
 	p: 4,
 }
 
-const stuffColor = { color: isDark ? lightColor : darkColor, fontFamily: "Courier New" }
-
 type PropsT = {
   open: boolean,
   handleClose: () => void
