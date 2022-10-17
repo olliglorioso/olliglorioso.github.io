@@ -2,22 +2,21 @@ import React, { useState } from "react"
 import "./App.css"
 import { SocialIcon } from "react-social-icons"
 import { AnimateKeyframes } from "react-simple-animate"
-import { socials } from "./constants"
+import { socials, lightColor, darkColor, isDark } from "./constants"
+import ProjectsModal from "./ProjectsModal"
 const style = { height: 150, width: 150 }
 const mR = { marginRight: 9 }
 const props = { play: true, duration: 2, iterationCount: "infinite" }
 const mL = { marginLeft: 9 }
 
 function App() {
-	const beige = "#F5F5DC"
-	const brown = "#212196"
-	const isDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
-	if (isDark) document.body.setAttribute("style", `background: ${brown};`)
+	const [projectsModalOpen, setProjectsModalOpen] = useState(false)
+	if (isDark) document.body.setAttribute("style", `background: ${darkColor};`)
 	const [play1, setPlay1] = useState(false)
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
-	const stuffColor = { color: isDark ? beige : brown, fontFamily: "Courier New" }
+	const stuffColor = { color: isDark ? lightColor : darkColor, fontFamily: "Courier New" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
 	// Mobile not implemented yet.
 	// let isMobile = false
@@ -26,10 +25,12 @@ function App() {
 	// }
 	return (
 		<div>
+			<ProjectsModal open={projectsModalOpen} handleClose={() => setProjectsModalOpen(false)} />
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
 			<div className="text" style={stuffColor}>Software engineering & data science.</div>
-			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/CV_Olli_Glorioso.pdf`} download="olliglorioso_resume" >Download resume</a></div>
+			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/CV_Olli_Glorioso.pdf`} download="olliglorioso_resume" >Résumé</a></div>
 			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/olliglorioso_pic.jpg`} >Picture of me</a></div>
+			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}`, cursor: "pointer" }} onClick={() => setProjectsModalOpen(true)}>Projects</a></div>
 			<div className='container'>
 				<div className='container_row'>
 					<div style={mR}>
