@@ -3,7 +3,7 @@ import Box from "@mui/material/Box"
 import Typography from "@mui/material/Typography"
 import Modal from "@mui/material/Modal"
 import { darkColor, lightColor, isDark } from "./constants"
-import { graphql } from "@octokit/graphql"
+// import { graphql } from "@octokit/graphql"
 
 const background = isDark ? darkColor : lightColor
 const text = isDark ? lightColor : darkColor
