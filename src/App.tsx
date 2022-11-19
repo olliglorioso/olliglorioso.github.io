@@ -19,10 +19,10 @@ function App() {
 	const stuffColor = { color: isDark ? lightColor : darkColor, fontFamily: "Courier New" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
 	// Mobile not implemented yet.
-	// let isMobile = false
-	// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	// 	isMobile = true
-	// }
+	let isMobile = false
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		isMobile = true
+	}
 	return (
 		<div>
 			<ProjectsModal open={projectsModalOpen} handleClose={() => setProjectsModalOpen(false)} />
@@ -36,7 +36,7 @@ function App() {
 					<div style={mR}>
 						<AnimateKeyframes
 							{...props}
-							pause={!play1}
+							pause={!play1 || isMobile}
 							keyframes={[
 								"transform: translateX(0px)",
 								`transform: translateX(${change})`,
@@ -55,7 +55,7 @@ function App() {
 					<div style={mL}>
 						<AnimateKeyframes
 							{...props}
-							pause={!play2}
+							pause={!play2 || isMobile}
 							keyframes={[
 								"opacity: 1",
 								"opacity: 0",
@@ -77,7 +77,7 @@ function App() {
 					<div style={mR}>
 						<AnimateKeyframes
 							{...props}
-							pause={!play3}
+							pause={!play3 || isMobile}
 							keyframes={[
 								"transform: rotate(0deg)",
 								"transform: rotate(360deg)",
@@ -95,7 +95,7 @@ function App() {
 					<div style={mL}>
 						<AnimateKeyframes
 							{...props}
-							pause={!play4}
+							pause={!play4 || isMobile}
 							keyframes={[
 								"transform: scaleY(1) scaleX(1)",
 								"transform: scaleY(1.25) scaleX(1.25)",
