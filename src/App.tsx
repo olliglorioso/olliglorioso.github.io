@@ -25,7 +25,7 @@ function App() {
 	}
 	return (
 		<div>
-			<ProjectsModal open={projectsModalOpen} handleClose={() => setProjectsModalOpen(false)} />
+			<ProjectsModal showProjects={!isMobile} open={projectsModalOpen} handleClose={() => setProjectsModalOpen(false)} />
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
 			<div className="text" style={stuffColor}>Software engineering & data science.</div>
 			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/CV_Olli_Glorioso.pdf`} download="olliglorioso_resume" >Résumé</a></div>

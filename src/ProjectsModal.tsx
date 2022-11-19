@@ -22,7 +22,8 @@ const style = {
 
 type PropsT = {
   open: boolean,
-  handleClose: () => void
+  handleClose: () => void,
+  showProjects: boolean
 }
 
 type ProjectT = {
@@ -67,7 +68,7 @@ type ProjectT = {
 // 	return response.user.pinnedItems.nodes
 // }
 
-export default function ProjectsModal({ open, handleClose }: PropsT) {
+export default function ProjectsModal({ open, handleClose, showProjects }: PropsT) {
 	// const [data, setData] = React.useState<ProjectT[]>([])
 	// React.useEffect(() => {
 	// 	const fetch = async () => {
@@ -116,25 +117,32 @@ export default function ProjectsModal({ open, handleClose }: PropsT) {
 				aria-labelledby="modal-modal-title"
 				aria-describedby="modal-modal-description"
 			>
-				<Box sx={style}>
+				<Box sx={{...style, width: (showProjects ? style.width : 200)}}>
 					<Typography id="modal-modal-title" variant="h6" component="h2" color={text}>
           Projects
 					</Typography>
-					{data.map((project: ProjectT) => 
 					{
-						return (
-							<div key={project.name}>
-								<a className="text" style={{ fontFamily: "Courier New", color: text, borderBottom: `1px solid ${text}` }} href={project.url}>{project.name}</a>
-								<Typography sx={{ fontFamily: "Courier New", mb: 2 }} color={text}>
-									{project.description}
-								</Typography>
-							</div>
-						)
+						showProjects 
+							? data.map((project: ProjectT) => 
+							{
+								return (
+									<div key={project.name}>
+										<a className="text" style={{ fontFamily: "Courier New", color: text, borderBottom: `1px solid ${text}` }} href={project.url}>{project.name}</a>
+										<Typography sx={{ fontFamily: "Courier New", mb: 2 }} color={text}>
+											{project.description}
+										</Typography>
+									</div>
+								)
+							})
+							: <Typography sx={{ fontFamily: "Courier New", mb: 2 }} color={text}>
+								Project modal not available for mobile. Please visit my <a className="text" style={{ fontFamily: "Courier New", color: text, borderBottom: `1px solid ${text}` }} href={"https://github.com/olliglorioso"}>GitHub</a>.
+							</Typography>
 					}
-					)}
-					<Typography id="modal-modal-description" color={text} sx={{ fontFamily: "Courier New" }}>
-            ...and many more <a className="text" style={{ fontFamily: "Courier New", color: text, borderBottom: `1px solid ${text}` }} href={"https://github.com/olliglorioso"}>here</a>.
-					</Typography>
+					{
+						showProjects
+							? <Typography id="modal-modal-description" color={text} sx={{ fontFamily: "Courier New" }}>...and many more <a className="text" style={{ fontFamily: "Courier New", color: text, borderBottom: `1px solid ${text}` }} href={"https://github.com/olliglorioso"}>here</a>.</Typography>
+							: null
+					}
 				</Box>
 			</Modal></>
 	)
