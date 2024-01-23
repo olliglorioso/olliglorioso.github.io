@@ -1,0 +1,2191 @@
+commit 4aa375d097aa8197a6c84e5dea76cf01e6fae4fd
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 4 11:39:47 2023 +0800
+
+    name updates of pics
+
+commit 6e30cf011577f4b617176626206fc22b00072c88
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Nov 2 17:09:08 2023 +0800
+
+    commit
+
+commit fb364676f110c9b7b6d635d6ea04b8a567e8f0a6
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Aug 2 13:23:29 2023 +0300
+
+    Delete CNAME
+
+commit 0b84bfa0b9661c01c6f83b9b905fdeb70e4156d7
+Merge: 940f495 d8bfe5b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sun Mar 19 15:39:53 2023 +0200
+
+    Merge pull request #95 from olliglorioso/dependabot/npm_and_yarn/octokit/graphql-5.0.5
+    
+    Bump @octokit/graphql from 5.0.3 to 5.0.5
+
+commit 940f495e9605bd336a703d4ed968a75ba6d64be0
+Merge: af24ae1 ac03232
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sun Mar 19 15:39:42 2023 +0200
+
+    Merge pull request #105 from olliglorioso/dependabot/npm_and_yarn/types/react-dom-18.0.11
+    
+    Bump @types/react-dom from 18.0.6 to 18.0.11
+
+commit af24ae1531be7a801181786b0f2e39b854fe5018
+Merge: 3659b3c e0e46a6
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sun Mar 19 15:39:30 2023 +0200
+
+    Merge pull request #109 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.54.1
+    
+    Bump @typescript-eslint/parser from 5.43.0 to 5.54.1
+
+commit e0e46a6d514a93424d4ccfaa0b2457c9bbeec737
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Mar 6 22:08:48 2023 +0000
+
+    Bump @typescript-eslint/parser from 5.43.0 to 5.54.1
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.43.0 to 5.54.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.54.1/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit ac032322f42474ed6f75407f3f606ac896de396e
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Feb 20 22:11:53 2023 +0000
+
+    Bump @types/react-dom from 18.0.6 to 18.0.11
+    
+    Bumps [@types/react-dom](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react-dom) from 18.0.6 to 18.0.11.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react-dom)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/react-dom"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit d8bfe5b9d29e0edb36f5c3e6c139b0bf06b585e7
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Jan 23 21:08:04 2023 +0000
+
+    Bump @octokit/graphql from 5.0.3 to 5.0.5
+    
+    Bumps [@octokit/graphql](https://github.com/octokit/graphql.js) from 5.0.3 to 5.0.5.
+    - [Release notes](https://github.com/octokit/graphql.js/releases)
+    - [Commits](https://github.com/octokit/graphql.js/compare/v5.0.3...v5.0.5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@octokit/graphql"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 3659b3c590b104891513fb4a4da612cac35606b5
+Merge: 2157ad2 4d0b9cc
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Dec 7 13:57:38 2022 +0200
+
+    Merge pull request #76 from olliglorioso/dependabot/npm_and_yarn/emotion/styled-11.10.5
+    
+    Bump @emotion/styled from 11.10.4 to 11.10.5
+
+commit 2157ad20c6aca8996d8434c0c8382d94abfcc892
+Merge: f2f081c b7fc868
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Dec 7 13:57:20 2022 +0200
+
+    Merge pull request #79 from olliglorioso/dependabot/npm_and_yarn/eslint-8.29.0
+    
+    Bump eslint from 8.24.0 to 8.29.0
+
+commit f2f081cb451ef003e6e3296815eef5d9f72d2150
+Merge: 8fe9c87 8090da7
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Dec 7 13:57:08 2022 +0200
+
+    Merge pull request #81 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.45.1
+    
+    Bump @typescript-eslint/eslint-plugin from 5.42.1 to 5.45.1
+
+commit 8090da7353fcd60600b808c73c5b69774619b4ac
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Dec 5 21:06:58 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.42.1 to 5.45.1
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.42.1 to 5.45.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.45.1/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit b7fc86833615af04e6e153dc9a199e91d4ff3093
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Dec 5 21:05:49 2022 +0000
+
+    Bump eslint from 8.24.0 to 8.29.0
+    
+    Bumps [eslint](https://github.com/eslint/eslint) from 8.24.0 to 8.29.0.
+    - [Release notes](https://github.com/eslint/eslint/releases)
+    - [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/eslint/eslint/compare/v8.24.0...v8.29.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 4d0b9ccb0f4d2675166a208dcf7d2ca5b039c9a3
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Dec 1 17:03:42 2022 +0000
+
+    Bump @emotion/styled from 11.10.4 to 11.10.5
+    
+    Bumps [@emotion/styled](https://github.com/emotion-js/emotion) from 11.10.4 to 11.10.5.
+    - [Release notes](https://github.com/emotion-js/emotion/releases)
+    - [Changelog](https://github.com/emotion-js/emotion/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/emotion-js/emotion/compare/@emotion/styled@11.10.4...@emotion/styled@11.10.5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@emotion/styled"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 8fe9c87a45095c713bbed9efff8279f222cbf57f
+Merge: 71589b1 72764a8
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Dec 1 19:02:02 2022 +0200
+
+    Merge pull request #77 from olliglorioso/dependabot/npm_and_yarn/typescript-4.9.3
+    
+    Bump typescript from 4.8.4 to 4.9.3
+
+commit 71589b1b76933d829f81a85878016aa53447b82b
+Merge: bfb45d3 d6d2833
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Dec 1 19:01:52 2022 +0200
+
+    Merge pull request #78 from olliglorioso/dependabot/npm_and_yarn/mui/material-5.10.16
+    
+    Bump @mui/material from 5.10.13 to 5.10.16
+
+commit d6d2833da91e835ddbb333936c5f9d27b2c25e9c
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 28 21:09:48 2022 +0000
+
+    Bump @mui/material from 5.10.13 to 5.10.16
+    
+    Bumps [@mui/material](https://github.com/mui/material-ui/tree/HEAD/packages/mui-material) from 5.10.13 to 5.10.16.
+    - [Release notes](https://github.com/mui/material-ui/releases)
+    - [Changelog](https://github.com/mui/material-ui/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mui/material-ui/commits/v5.10.16/packages/mui-material)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@mui/material"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 72764a8c8cc4b6ef78e9cb5a82f7199a3da250a1
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 28 21:09:19 2022 +0000
+
+    Bump typescript from 4.8.4 to 4.9.3
+    
+    Bumps [typescript](https://github.com/Microsoft/TypeScript) from 4.8.4 to 4.9.3.
+    - [Release notes](https://github.com/Microsoft/TypeScript/releases)
+    - [Commits](https://github.com/Microsoft/TypeScript/compare/v4.8.4...v4.9.3)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: typescript
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit bfb45d3d38f2e996b345f3adff0fc34b8929144b
+Merge: 36da87f 8b6a225
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Nov 22 16:39:08 2022 +0200
+
+    Merge pull request #73 from olliglorioso/dependabot/npm_and_yarn/eslint-plugin-react-7.31.11
+    
+    Bump eslint-plugin-react from 7.31.10 to 7.31.11
+
+commit 36da87fd898169f06864915d18a7411c21341601
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 16:04:37 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 3459a55cbff21924fe5a714bddff1dd3ac2f102a
+Merge: a9a3b1f b9014f8
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 18:03:24 2022 +0200
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit a9a3b1f6e9e9d7c14fe97d04d4efb8926fee8eba
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 18:03:21 2022 +0200
+
+    improvements for mobile [build]
+
+commit b9014f8a5f88f7217d6ddf753b1242f4ce5db72b
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:52:46 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 37cee6a21af69a16eb9b362875fe67a7fd1e01e1
+Merge: 4e0ffb2 9bd3cab
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 17:51:37 2022 +0200
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 4e0ffb26c480e8fcc3bc5dbdc526f3e51b820f31
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 17:51:33 2022 +0200
+
+    disable animations on mobile [build]
+
+commit 8b6a225b06a2fcb005fdd83e6792dbd326e5661c
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Nov 19 13:53:27 2022 +0000
+
+    Bump eslint-plugin-react from 7.31.10 to 7.31.11
+    
+    Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.31.10 to 7.31.11.
+    - [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+    - [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.31.10...v7.31.11)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint-plugin-react
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 9bd3cabf82384b7a13f4b31cb00c53517be021a4
+Merge: 5c8bca1 f5621e4
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:53:16 2022 +0200
+
+    Merge pull request #67 from olliglorioso/dependabot/npm_and_yarn/types/react-18.0.25
+    
+    Bump @types/react from 18.0.21 to 18.0.25
+
+commit 5c8bca1ac5ea42bb2cd86d5bebfaa573e454c65a
+Merge: 9931090 194cb6e
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:53:06 2022 +0200
+
+    Merge pull request #70 from olliglorioso/dependabot/npm_and_yarn/eslint-plugin-react-7.31.10
+    
+    Bump eslint-plugin-react from 7.31.8 to 7.31.10
+
+commit 993109014e6fc9682b9c71bdd3b8912e01bad3ae
+Merge: 44375a2 42bcff3
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:52:47 2022 +0200
+
+    Merge pull request #68 from olliglorioso/dependabot/npm_and_yarn/emotion/react-11.10.5
+    
+    Bump @emotion/react from 11.10.4 to 11.10.5
+
+commit 44375a2298c584c1f6c85634d811b09793a120f2
+Merge: 4fd76de 1ac41e3
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:52:38 2022 +0200
+
+    Merge pull request #69 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.43.0
+    
+    Bump @typescript-eslint/parser from 5.42.1 to 5.43.0
+
+commit 4fd76de363c9495b4049a25dbc306626c4dc0efb
+Merge: 6877ccd 2112bf6
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:52:29 2022 +0200
+
+    Merge pull request #71 from olliglorioso/dependabot/npm_and_yarn/mui/material-5.10.13
+    
+    Bump @mui/material from 5.10.9 to 5.10.13
+
+commit 6877ccde78582c12f144522e77d91777c852247c
+Merge: e7f7e0a 7aaf65f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 15:52:16 2022 +0200
+
+    Merge pull request #72 from olliglorioso/dependabot/npm_and_yarn/loader-utils-2.0.4
+    
+    Bump loader-utils from 2.0.3 to 2.0.4
+
+commit e7f7e0a5cf7270ec9170c3573c12f8e72652e2e2
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Nov 19 13:25:44 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit d5ca84bd47ba7914c7fafd3a44e2f39edcf7d6f1
+Merge: 857a900 98cf955
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 15:24:21 2022 +0200
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 857a9006e8641efd34b41eceb521b6c7b6e9c0cb
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Nov 19 15:24:18 2022 +0200
+
+    CV update (automatize this ...) [build]
+
+commit 7aaf65f1d6d26e8c563513f30225a5bebc97cabf
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Nov 16 05:54:08 2022 +0000
+
+    Bump loader-utils from 2.0.3 to 2.0.4
+    
+    Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.3 to 2.0.4.
+    - [Release notes](https://github.com/webpack/loader-utils/releases)
+    - [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md)
+    - [Commits](https://github.com/webpack/loader-utils/compare/v2.0.3...v2.0.4)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: loader-utils
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 2112bf6fb63ee71d46a8330b4c0ef713c0046921
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 14 21:10:05 2022 +0000
+
+    Bump @mui/material from 5.10.9 to 5.10.13
+    
+    Bumps [@mui/material](https://github.com/mui/material-ui/tree/HEAD/packages/mui-material) from 5.10.9 to 5.10.13.
+    - [Release notes](https://github.com/mui/material-ui/releases)
+    - [Changelog](https://github.com/mui/material-ui/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mui/material-ui/commits/v5.10.13/packages/mui-material)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@mui/material"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 194cb6e05a87ee1fde739b508ca5701ccade318f
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 14 21:09:26 2022 +0000
+
+    Bump eslint-plugin-react from 7.31.8 to 7.31.10
+    
+    Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.31.8 to 7.31.10.
+    - [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+    - [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.31.8...v7.31.10)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint-plugin-react
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 1ac41e300ddb3f18db362c81f0fbeab89228057f
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 14 21:08:55 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.42.1 to 5.43.0
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.42.1 to 5.43.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.43.0/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 42bcff38311e6b5b66a985d0877b887881a1d403
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 14 21:08:06 2022 +0000
+
+    Bump @emotion/react from 11.10.4 to 11.10.5
+    
+    Bumps [@emotion/react](https://github.com/emotion-js/emotion) from 11.10.4 to 11.10.5.
+    - [Release notes](https://github.com/emotion-js/emotion/releases)
+    - [Changelog](https://github.com/emotion-js/emotion/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/emotion-js/emotion/compare/@emotion/react@11.10.4...@emotion/react@11.10.5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@emotion/react"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit f5621e4c3edfaa1074005144df0018c957813449
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 14 21:07:21 2022 +0000
+
+    Bump @types/react from 18.0.21 to 18.0.25
+    
+    Bumps [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react) from 18.0.21 to 18.0.25.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/react"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 98cf955cb8a87ff6ffd5beefbe628b5a3360fdbf
+Merge: 1f99a51 21ed077
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Nov 9 19:49:21 2022 +0200
+
+    Merge pull request #63 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.42.1
+    
+    Bump @typescript-eslint/eslint-plugin from 5.37.0 to 5.42.1
+
+commit 1f99a51961c90c38bda2e771dd31ae35a21e071e
+Merge: a863af3 46e4178
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Nov 9 19:49:13 2022 +0200
+
+    Merge pull request #51 from olliglorioso/dependabot/npm_and_yarn/typescript-4.8.4
+    
+    Bump typescript from 4.8.3 to 4.8.4
+
+commit a863af384072898b9e7216ca3a81397813050bfc
+Merge: e028238 2683651
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Nov 9 19:49:01 2022 +0200
+
+    Merge pull request #66 from olliglorioso/dependabot/npm_and_yarn/loader-utils-2.0.3
+    
+    Bump loader-utils from 2.0.2 to 2.0.3
+
+commit 26836514d129a613b382f46edeb8d05f150aa4f4
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Nov 9 08:29:02 2022 +0000
+
+    Bump loader-utils from 2.0.2 to 2.0.3
+    
+    Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.3.
+    - [Release notes](https://github.com/webpack/loader-utils/releases)
+    - [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.3/CHANGELOG.md)
+    - [Commits](https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.3)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: loader-utils
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 46e4178f01f01b427aa2d7403f9476a27b5095a8
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 7 22:11:13 2022 +0000
+
+    Bump typescript from 4.8.3 to 4.8.4
+    
+    Bumps [typescript](https://github.com/Microsoft/TypeScript) from 4.8.3 to 4.8.4.
+    - [Release notes](https://github.com/Microsoft/TypeScript/releases)
+    - [Commits](https://github.com/Microsoft/TypeScript/compare/v4.8.3...v4.8.4)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: typescript
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit e0282380e72bad92af8c3d3d469c299fc2019823
+Merge: 97c32aa f152d0b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Nov 8 00:08:40 2022 +0200
+
+    Merge pull request #48 from olliglorioso/dependabot/npm_and_yarn/react-social-icons-5.15.0
+    
+    Bump react-social-icons from 5.14.0 to 5.15.0
+
+commit 97c32aa36501b6233650c76f1a6bd5d0deff4e01
+Merge: f7da811 3192c5b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Nov 8 00:08:30 2022 +0200
+
+    Merge pull request #64 from olliglorioso/dependabot/npm_and_yarn/types/node-18.11.9
+    
+    Bump @types/node from 18.7.18 to 18.11.9
+
+commit 21ed077b5475dc28e0ad2c64c2738c5c27f08cc3
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 7 22:07:56 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.37.0 to 5.42.1
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.37.0 to 5.42.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.42.1/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit f7da811ce6d0b38fc289d1bf081eb8d322fe7657
+Merge: 45edc63 1676e35
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Nov 8 00:04:58 2022 +0200
+
+    Merge pull request #65 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.42.1
+    
+    Bump @typescript-eslint/parser from 5.38.0 to 5.42.1
+
+commit 1676e35f3e9f0983b1171428a623524554b9b563
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 7 21:25:22 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.38.0 to 5.42.1
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.38.0 to 5.42.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.42.1/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 3192c5b1f5480d2386f283b1a3c92b0121a1031c
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 7 21:22:55 2022 +0000
+
+    Bump @types/node from 18.7.18 to 18.11.9
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.7.18 to 18.11.9.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 45edc63541f9a19528c3978c8cf35e5e662de0bc
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 17 15:04:39 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit a1bb7d967bde9a4ec28c30f39ac3c84380697f3c
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 18:03:20 2022 +0300
+
+    ts fix [build]
+
+commit c1862386a2996e230b35b22a6247dafd0cb07cb2
+Merge: b90d039 572588d
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 18:03:06 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit b90d039fdd2fea47e1fc805112572bcc65d5efb7
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 18:03:00 2022 +0300
+
+    delete automatic fetching [build]
+
+commit 572588da448098e72eed7f0fb8b226d4c64b7c1a
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 17 10:53:28 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 97bc0c546caa2f02b3035dbf378caf0a5f64f1d9
+Merge: f6a6793 e644c95
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 13:52:23 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit f6a6793c614fdf8bef97d74c67d7b7d2af6a26e3
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 13:52:19 2022 +0300
+
+    [build]
+
+commit e644c959ba289c10b14acaf4ff7526db255a9791
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 17 09:20:28 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit c46990f3b4c348e73959aa35a2276d599c168d6d
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 12:19:20 2022 +0300
+
+    tsc problem fixed [build]
+
+commit 5b36d991f63e34094a50dfe30b76176b89be8da3
+Merge: 434c9ff 8d1f033
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 12:17:17 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 434c9ff4255d7bdef2eb6af09ea404b236bb767b
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 17 12:17:09 2022 +0300
+
+    [build]
+
+commit 8d1f033317921409632fb7aef71e12f752fe9ed4
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Fri Oct 14 16:04:13 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit e6f6200e735e383fbd371b8bd9e1829f4784465d
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Fri Oct 14 19:01:40 2022 +0300
+
+    [build]
+
+commit 6428426bfce40324c381ec6c457d3efd5a7150b7
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Fri Oct 14 18:59:11 2022 +0300
+
+    [build]
+
+commit 30e89e28263be3fffb41d0e34519b79113f280cb
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 10 11:15:03 2022 +0300
+
+    change cv [build]
+
+commit f152d0bcff6ed3e062631689b4373fc6ab9201ba
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Oct 3 22:02:06 2022 +0000
+
+    Bump react-social-icons from 5.14.0 to 5.15.0
+    
+    Bumps [react-social-icons](https://github.com/jaketrent/react-social-icons) from 5.14.0 to 5.15.0.
+    - [Release notes](https://github.com/jaketrent/react-social-icons/releases)
+    - [Commits](https://github.com/jaketrent/react-social-icons/compare/v5.14.0...v5.15.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: react-social-icons
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 3148a290f053f5a227d2aa2fc508dc879fe5a78e
+Merge: c7a6400 c50a09a
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 3 11:40:40 2022 +0300
+
+    Merge pull request #42 from olliglorioso/dependabot/npm_and_yarn/types/react-18.0.21
+    
+    Bump @types/react from 18.0.19 to 18.0.21
+
+commit c7a6400e1f3ec7a16288a7d55b2a223f0f827b31
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 3 08:35:15 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 2f2ee82f2935144179bfe739f4c6a454d4eda7bd
+Merge: 47dfb68 35f4512
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 3 11:34:15 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 47dfb68c4bf3c744d63ccef73b1ce6fb3ad91655
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 3 11:34:12 2022 +0300
+
+    [build]
+
+commit 35f451201770af17cdbe73234ca1baae324ad6d8
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Oct 3 08:21:20 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit f61185cc9232c363e0d6b3b9c18d12cd1e88594b
+Merge: 3c93300 9348497
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 3 11:20:24 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 3c933008eaa9e4dd4ad639e356b7fac17704b83f
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Oct 3 11:20:20 2022 +0300
+
+    [build] cv change
+
+commit 9348497452f79dfdc69c29649e755ecc08615971
+Merge: 7a5b74b 0a5c86d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Sep 28 13:42:12 2022 +0300
+
+    Merge pull request #45 from olliglorioso/dependabot/npm_and_yarn/eslint-8.24.0
+    
+    Bump eslint from 8.23.1 to 8.24.0
+
+commit 0a5c86da9c4d26c7b79d3837e18e16e14ed253ce
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 26 21:38:07 2022 +0000
+
+    Bump eslint from 8.23.1 to 8.24.0
+    
+    Bumps [eslint](https://github.com/eslint/eslint) from 8.23.1 to 8.24.0.
+    - [Release notes](https://github.com/eslint/eslint/releases)
+    - [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/eslint/eslint/compare/v8.23.1...v8.24.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit c50a09a2381969d7f5f10ca5131866c5195670b9
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 26 19:13:39 2022 +0000
+
+    Bump @types/react from 18.0.19 to 18.0.21
+    
+    Bumps [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react) from 18.0.19 to 18.0.21.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/react"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 7a5b74bfd1840eae55fccbfeb0989d83ae2d81fd
+Merge: 6d86193 ba0640d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 26 22:12:55 2022 +0300
+
+    Merge pull request #37 from olliglorioso/dependabot/npm_and_yarn/types/node-18.7.18
+    
+    Bump @types/node from 18.7.17 to 18.7.18
+
+commit 6d86193066c5ba61fa663de186b34b62c21084fb
+Merge: d8b769d 54bd088
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 26 22:12:47 2022 +0300
+
+    Merge pull request #39 from olliglorioso/dependabot/npm_and_yarn/eslint-plugin-react-7.31.8
+    
+    Bump eslint-plugin-react from 7.31.7 to 7.31.8
+
+commit d8b769d6a70ae1fd2fe47babd5743bde5b73a81e
+Merge: c3b4b8b 742472c
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 26 22:12:39 2022 +0300
+
+    Merge pull request #41 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.38.0
+    
+    Bump @typescript-eslint/parser from 5.34.0 to 5.38.0
+
+commit c3b4b8be669368db4b1cb17d47e42f0bcb60f54e
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sun Sep 25 10:40:47 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 39eb4988ec1f504b16ada70f15acf2637ec4b7c6
+Merge: 1c190de 66f7195
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Sep 25 13:39:48 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 1c190ded139b89b4e195a5046d1e37eb4319e01f
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Sep 25 13:39:44 2022 +0300
+
+    [build] change cv
+
+commit 66f71952fed5c547d5807a56fc7a05dc4301579a
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Wed Sep 21 19:33:37 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 6b9906bb654ba2f6602fba76103fa3bd339fbc9d
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Wed Sep 21 22:32:30 2022 +0300
+
+    [build] and change color
+
+commit 742472cfc2faf9be9c35cdabb0b10d115ec06f78
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 19 21:23:34 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.34.0 to 5.38.0
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.34.0 to 5.38.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.38.0/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 54bd0880d00cacad7d9ee23fea39306f9c86d7f6
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 19 21:22:32 2022 +0000
+
+    Bump eslint-plugin-react from 7.31.7 to 7.31.8
+    
+    Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.31.7 to 7.31.8.
+    - [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+    - [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.31.7...v7.31.8)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint-plugin-react
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit ba0640da05a95c7ebb89ff1e4971bbe79766c85d
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 19 21:21:52 2022 +0000
+
+    Bump @types/node from 18.7.17 to 18.7.18
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.7.17 to 18.7.18.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit fc9b72a7d0d99962e3a1852aa95e17c0155595f5
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 10:21:41 2022 +0300
+
+    [build] changed cv
+
+commit 334bbb1b5513466d001343de6d724eaa2897b1ee
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 10:14:43 2022 +0300
+
+    [build]
+
+commit 13214121df8fc5d5c8889ef2261b44ff3df9437a
+Merge: fe9dfda 02b3aa2
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 10:12:08 2022 +0300
+
+    Merge pull request #32 from olliglorioso/dependabot/npm_and_yarn/types/react-18.0.19
+    
+    Bump @types/react from 18.0.17 to 18.0.19
+
+commit fe9dfda5308f68b04b9445bb6184a7954908255c
+Merge: 471e5f8 e2c4932
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 10:12:00 2022 +0300
+
+    Merge pull request #35 from olliglorioso/dependabot/npm_and_yarn/typescript-4.8.3
+    
+    Bump typescript from 4.7.4 to 4.8.3
+
+commit 471e5f8cc3631de83b2ee950a2b6cee984e6ebfb
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 07:11:52 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit c6c722d8411e9e97a9a1c0552a45377ce883405e
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Sep 19 10:10:49 2022 +0300
+
+    [build]
+
+commit e2c4932679d5e98851c371036f5cd3a2ed919891
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Sep 13 08:31:22 2022 +0000
+
+    Bump typescript from 4.7.4 to 4.8.3
+    
+    Bumps [typescript](https://github.com/Microsoft/TypeScript) from 4.7.4 to 4.8.3.
+    - [Release notes](https://github.com/Microsoft/TypeScript/releases)
+    - [Commits](https://github.com/Microsoft/TypeScript/compare/v4.7.4...v4.8.3)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: typescript
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 02b3aa2939c16fde898f12a2b021920529c30a7b
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Sep 13 08:31:12 2022 +0000
+
+    Bump @types/react from 18.0.17 to 18.0.19
+    
+    Bumps [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react) from 18.0.17 to 18.0.19.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/react"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit f75adc321da5ef4cfe505a4536df7eca05afa62a
+Merge: f012fd2 969857c
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Sep 13 11:30:24 2022 +0300
+
+    Merge pull request #33 from olliglorioso/dependabot/npm_and_yarn/types/node-18.7.17
+    
+    Bump @types/node from 18.7.10 to 18.7.17
+
+commit f012fd210d8706b34fdc30d08abd33a8819503b0
+Merge: 6150ca1 efead9d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Sep 13 11:30:13 2022 +0300
+
+    Merge pull request #34 from olliglorioso/dependabot/npm_and_yarn/eslint-8.23.1
+    
+    Bump eslint from 8.22.0 to 8.23.1
+
+commit 6150ca1dfff4e6def1d5c68dd2c724b7de08f596
+Merge: ba438c7 61c693b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Sep 13 11:29:54 2022 +0300
+
+    Merge pull request #36 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.37.0
+    
+    Bump @typescript-eslint/eslint-plugin from 5.34.0 to 5.37.0
+
+commit 61c693b4b51188383a425359853242485859933e
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 12 22:00:37 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.34.0 to 5.37.0
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.34.0 to 5.37.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.37.0/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit efead9d121af3e876793e3cab6b8d817033d0a12
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 12 21:59:22 2022 +0000
+
+    Bump eslint from 8.22.0 to 8.23.1
+    
+    Bumps [eslint](https://github.com/eslint/eslint) from 8.22.0 to 8.23.1.
+    - [Release notes](https://github.com/eslint/eslint/releases)
+    - [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/eslint/eslint/compare/v8.22.0...v8.23.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 969857c3e421e43ae61930f3c172bbc92e2f13f9
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 12 21:58:52 2022 +0000
+
+    Bump @types/node from 18.7.10 to 18.7.17
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.7.10 to 18.7.17.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit ba438c71b71e557ed307c745fcd35cff4114bd8c
+Merge: cc93190 2206b37
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Sep 6 12:58:39 2022 +0300
+
+    Merge pull request #30 from olliglorioso/dependabot/npm_and_yarn/eslint-plugin-react-7.31.7
+    
+    Bump eslint-plugin-react from 7.30.1 to 7.31.7
+
+commit 2206b371aa4d6be9c09b5b948b21683fb412ddcc
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 5 21:41:02 2022 +0000
+
+    Bump eslint-plugin-react from 7.30.1 to 7.31.7
+    
+    Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.30.1 to 7.31.7.
+    - [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+    - [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.30.1...v7.31.7)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint-plugin-react
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit cc931906c3f4d85af356f2f5c54684dc0644a46e
+Merge: 9dc0251 2b29def
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 23 08:10:49 2022 +0300
+
+    Merge pull request #19 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.34.0
+    
+    Bump @typescript-eslint/eslint-plugin from 5.33.1 to 5.34.0
+
+commit 2b29def495a316cb6b16447454d3151ce54e3fa1
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 23 05:08:58 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.33.1 to 5.34.0
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.33.1 to 5.34.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.34.0/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 9dc0251c56d90f7afe77f5116f8e7ff216a03ebe
+Merge: c4cd99b f7dcae3
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 23 08:08:09 2022 +0300
+
+    Merge pull request #20 from olliglorioso/dependabot/npm_and_yarn/types/node-18.7.10
+    
+    Bump @types/node from 18.7.6 to 18.7.10
+
+commit c4cd99b22e359ed69104584daaa1b65bd51163b6
+Merge: d2bc8f4 9362db8
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 23 08:07:55 2022 +0300
+
+    Merge pull request #21 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.34.0
+    
+    Bump @typescript-eslint/parser from 5.33.1 to 5.34.0
+
+commit d2bc8f4930a90808a4f0e54afbd649d8f92f55a2
+Merge: af20049 2c8fb26
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 23 08:07:40 2022 +0300
+
+    Merge pull request #22 from olliglorioso/dependabot/npm_and_yarn/react-simple-animate-3.5.1
+    
+    Bump react-simple-animate from 3.5.0 to 3.5.1
+
+commit 2c8fb26fa35ac1886e987f7882e6ac83b8bbf051
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 22 21:37:47 2022 +0000
+
+    Bump react-simple-animate from 3.5.0 to 3.5.1
+    
+    Bumps [react-simple-animate](https://github.com/bluebill1049/react-simple-animation) from 3.5.0 to 3.5.1.
+    - [Release notes](https://github.com/bluebill1049/react-simple-animation/releases)
+    - [Commits](https://github.com/bluebill1049/react-simple-animation/compare/v3.5.0...v3.5.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: react-simple-animate
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 9362db874581634edd8eb188b8189d89d954fb8e
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 22 21:37:05 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.33.1 to 5.34.0
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.33.1 to 5.34.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.34.0/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit f7dcae323d71feca4e3d404fb677ff64a6d1f569
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 22 21:36:14 2022 +0000
+
+    Bump @types/node from 18.7.6 to 18.7.10
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.7.6 to 18.7.10.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit af2004957021d57ce829430d60aababb6a8f25ae
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Fri Aug 19 19:12:13 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit c7852ceace2e846861c4fd5708a90a3d5b7e428a
+Author: Olli <olli.glorioso@gmail.com>
+Date:   Fri Aug 19 22:11:04 2022 +0300
+
+    [build]
+
+commit be44685b6b7b5b31ef78387685f33b10da0d87d9
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Fri Aug 19 22:06:19 2022 +0300
+
+    Create codeql-analysis.yml
+
+commit 2e83ed39da9d6787f35e5b8877e870bbab0fb6cb
+Merge: 65121aa 65898b3
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Fri Aug 19 22:05:28 2022 +0300
+
+    Merge pull request #15 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.33.1
+    
+    Bump @typescript-eslint/parser from 5.32.0 to 5.33.1
+
+commit 65121aae2f83ec636455456acc67129a3d6c2930
+Merge: 7e530ac bf16721
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Fri Aug 19 22:05:19 2022 +0300
+
+    Merge pull request #18 from olliglorioso/dependabot/npm_and_yarn/types/node-18.7.6
+    
+    Bump @types/node from 18.6.3 to 18.7.6
+
+commit 7e530aca8e739a92f03739537b4eb4580dab6516
+Author: Olli <olli.glorioso@gmail.com>
+Date:   Fri Aug 19 22:03:56 2022 +0300
+
+    [build]
+
+commit b2f629cfb89ec1d11a9257b3312636851344205f
+Author: Olli <olli.glorioso@gmail.com>
+Date:   Fri Aug 19 22:03:13 2022 +0300
+
+    changed cv
+
+commit d2ffe8822246d8a5f9cca593e6ae7ea30e0ab449
+Author: Olli <olli.glorioso@gmail.com>
+Date:   Thu Aug 18 11:02:30 2022 +0300
+
+    Renaming, added the official resume. [build]
+
+commit bf16721ce71d8d9a49145dcd6205427595c6b240
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Aug 17 07:00:09 2022 +0000
+
+    Bump @types/node from 18.6.3 to 18.7.6
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.6.3 to 18.7.6.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 65898b371787b0ff81667fafa5f51aea287b8d85
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Aug 17 07:00:06 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.32.0 to 5.33.1
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.32.0 to 5.33.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.33.1/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 13a26fc3279793b610fa3f5f1e91df5f59e2e6f4
+Merge: fb10f65 4be074d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Aug 17 09:59:29 2022 +0300
+
+    Merge pull request #9 from olliglorioso/dependabot/npm_and_yarn/types/react-18.0.17
+    
+    Bump @types/react from 18.0.15 to 18.0.17
+
+commit fb10f658eb065f071ff14020ed892297455545c7
+Merge: 4ca6bbd c24917d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Aug 17 09:59:21 2022 +0300
+
+    Merge pull request #14 from olliglorioso/dependabot/npm_and_yarn/eslint-8.22.0
+    
+    Bump eslint from 8.21.0 to 8.22.0
+
+commit 4ca6bbdf29e4c4ced5273afe80310504b0a37639
+Merge: ca605ce 71e926f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Wed Aug 17 09:58:58 2022 +0300
+
+    Merge pull request #16 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.33.1
+    
+    Bump @typescript-eslint/eslint-plugin from 5.32.0 to 5.33.1
+
+commit ca605cee3d7263e7b04ce0d0f5f28e0fd28aec77
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 16 11:23:26 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 0a1af7212b6fe929d69debd4a77073777a894ed3
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 16 14:22:30 2022 +0300
+
+    [build]
+
+commit 5cfc3b5daa88c67a217375e10f1dc803e543b4be
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 16 14:17:14 2022 +0300
+
+    Create node.js.yml
+
+commit 334071e2dd2bb136fc73b40efab3aa9ddcf013ea
+Merge: fd6e2ef a5c227b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 16 14:13:24 2022 +0300
+
+    Merge pull request #17 from olliglorioso/imgbot
+    
+    [ImgBot] Optimize images
+
+commit a5c227bc79ee5af03327cac1ca72d3e4f21acc03
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Tue Aug 16 10:51:47 2022 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 3,999.40kb -> 3,743.14kb (6.41%)
+    
+    /public/omakuva_isores.jpg -- 3,795.85kb -> 3,542.39kb (6.68%)
+    /docs/logo192.png -- 14.72kb -> 14.33kb (2.69%)
+    /public/logo192.png -- 14.72kb -> 14.33kb (2.69%)
+    /docs/logo512.png -- 87.05kb -> 86.05kb (1.15%)
+    /public/logo512.png -- 87.05kb -> 86.05kb (1.15%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit fd6e2efb624e6713c865dcfc4a0798d6c453f248
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 16 10:22:45 2022 +0000
+
+    self picture
+
+commit 71e926fef65ed6dc98c397186cad3bc3444bbfc6
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 15 21:31:24 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.32.0 to 5.33.1
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.32.0 to 5.33.1.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.33.1/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit c24917dd5861d181416fc0c4e8e1b6c5c9708ca7
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 15 21:30:33 2022 +0000
+
+    Bump eslint from 8.21.0 to 8.22.0
+    
+    Bumps [eslint](https://github.com/eslint/eslint) from 8.21.0 to 8.22.0.
+    - [Release notes](https://github.com/eslint/eslint/releases)
+    - [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/eslint/eslint/compare/v8.21.0...v8.22.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 4be074d11f98a294525b788eb7142fbea685466e
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Aug 8 21:38:01 2022 +0000
+
+    Bump @types/react from 18.0.15 to 18.0.17
+    
+    Bumps [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react) from 18.0.15 to 18.0.17.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/react"
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 09a83080ec6aa203bb9d79e473cae8aed135b6e4
+Merge: cb1b499 41584e1
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 2 23:12:40 2022 +0300
+
+    Merge pull request #5 from olliglorioso/dependabot/npm_and_yarn/types/node-18.6.3
+    
+    Bump @types/node from 16.11.46 to 18.6.3
+
+commit cb1b4997a60c853d5de6ea1c92410f229ce22dc9
+Merge: ebd710f 125af01
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 2 23:12:30 2022 +0300
+
+    Merge pull request #7 from olliglorioso/dependabot/npm_and_yarn/eslint-8.21.0
+    
+    Bump eslint from 8.20.0 to 8.21.0
+
+commit ebd710f048406ae85f5637d3f5e4feed689c3ec5
+Merge: d805029 acfe4e6
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 2 23:12:13 2022 +0300
+
+    Merge pull request #6 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-5.32.0
+    
+    Bump @typescript-eslint/eslint-plugin from 5.31.0 to 5.32.0
+
+commit acfe4e629d9aa041f91dfb3500a10711f4705a06
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 2 20:12:05 2022 +0000
+
+    Bump @typescript-eslint/eslint-plugin from 5.31.0 to 5.32.0
+    
+    Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 5.31.0 to 5.32.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.32.0/packages/eslint-plugin)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/eslint-plugin"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 125af0114cd820233e9d14fa1ce725c768816c59
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 2 20:12:01 2022 +0000
+
+    Bump eslint from 8.20.0 to 8.21.0
+    
+    Bumps [eslint](https://github.com/eslint/eslint) from 8.20.0 to 8.21.0.
+    - [Release notes](https://github.com/eslint/eslint/releases)
+    - [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/eslint/eslint/compare/v8.20.0...v8.21.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: eslint
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit d805029bc67002e4f79a9a6c1c03db29f57dcbb0
+Merge: 39165d3 2c35b0a
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 2 23:10:58 2022 +0300
+
+    Merge pull request #8 from olliglorioso/dependabot/npm_and_yarn/typescript-eslint/parser-5.32.0
+    
+    Bump @typescript-eslint/parser from 5.31.0 to 5.32.0
+
+commit 2c35b0a7bbeb22a9eba19e81cebdb4791bdd8771
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 2 08:18:32 2022 +0000
+
+    Bump @typescript-eslint/parser from 5.31.0 to 5.32.0
+    
+    Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.31.0 to 5.32.0.
+    - [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+    - [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md)
+    - [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.32.0/packages/parser)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@typescript-eslint/parser"
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 41584e1400ef449386e9728132aabc7da4edb921
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 2 08:16:53 2022 +0000
+
+    Bump @types/node from 16.11.46 to 18.6.3
+    
+    Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 16.11.46 to 18.6.3.
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@types/node"
+      dependency-type: direct:production
+      update-type: version-update:semver-major
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 39165d3a636398da5c7736eb5e51b88325290e33
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Aug 2 11:16:02 2022 +0300
+
+    Create dependabot.yml
+
+commit 16fbe9322171c25ee116c49e10d96fbe91831347
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 22:08:40 2022 +0300
+
+    Update CNAME
+
+commit 05197673fc06d02e802c17ba31dad5db69acb7c9
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 22:08:20 2022 +0300
+
+    Create CNAME
+
+commit ef7f1d2c155e5b799f91dba42fd50e22356ec12b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 16:43:11 2022 +0300
+
+    Update README.md
+
+commit d2675afd8d4f29aaa79f460d4379530fb51e36bf
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 15:41:13 2022 +0300
+
+    Update CNAME
+
+commit a3a5319386bbb6c9e9d2e45703983d5ee639d486
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:54:36 2022 +0300
+
+    Create CNAME
+
+commit f67b3e208af854b73223bd43ff76370cd88ebf27
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:54:29 2022 +0300
+
+    Delete CNAME
+
+commit 49bf03ba22e17eece9cb90a2d06197a5d73a8528
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:38:21 2022 +0300
+
+    Create CNAME
+
+commit 148e1b080df5bc66e19fd82ce639ea417b7bb816
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:38:10 2022 +0300
+
+    Delete CNAME
+
+commit d7e5abac36e491d16f2fa2b79cc9876725f43aa7
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:33:06 2022 +0300
+
+    Update CNAME
+
+commit c661bae796165adfdf9b784307c323db17ec3a23
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:06:39 2022 +0300
+
+    Update CNAME
+
+commit bfca6397d11ddb88c7f930b4bae92962cb23fe1f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:03:20 2022 +0300
+
+    Update CNAME
+
+commit af2c2b15607400f2ef6fbd6d32c8f5246a9d220f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 14:00:40 2022 +0300
+
+    delete cname
+
+commit 21de71663cb36607a702aa071572f5472d600511
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 13:57:12 2022 +0300
+
+    Create CNAME
+
+commit 593acb071eacf280a476160101ce8a21950a0ea4
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 13:55:04 2022 +0300
+
+    Added CNAME file for custom domain (olliglorioso.me)
+
+commit 851180da343042de096bde8aa0cb1047f2829444
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Mon Aug 1 13:54:50 2022 +0300
+
+    Added CNAME file for custom domain (olliglorioso.me)
+
+commit 2d90890e0a384738abfc977ff78a08ed9b3d895b
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sun Jul 31 13:20:02 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 0ed69dc7dc87675b19f5dfae5aaed2fe5bb5399c
+Merge: 6df8437 f1bc204
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 16:19:05 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 6df843742897c460e84118f746242bc0ba01bde3
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 16:19:01 2022 +0300
+
+    Adjust the linkedin circle moving to screen size [build]
+
+commit f1bc204c52f078fb39d0f8102aa25facc39f1838
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sun Jul 31 15:58:24 2022 +0300
+
+    Update README.md
+
+commit bee65553a09e5c300977fc9770aba2e43c78be0b
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sun Jul 31 15:50:50 2022 +0300
+
+    Update .gitignore
+
+commit a7c020155a16cb3a01b0c5abb078afc7d0bb7801
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sun Jul 31 09:33:57 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 950b8b1cca65eba58f82f55fc8b15a235c5670af
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 12:33:02 2022 +0300
+
+    change grey color tunes [build]
+
+commit de71086aa0fdf3b2001bedb6b7b02f4661ce7e40
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sun Jul 31 08:41:04 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit d80b0e44cb90a1793d873015f5403749cc49ced4
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 11:39:56 2022 +0300
+
+    also build [build]
+
+commit f0bb65f4df86fe8b907d0b6dacd6987ce88291b4
+Merge: 852faaf 2afd7da
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 11:39:51 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 852faafd954369e837f02e38988eea5dda8a9a2c
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sun Jul 31 11:39:39 2022 +0300
+
+    dark mode things
+
+commit 2afd7da7d48836c1382821cea62916a021610088
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 19:35:47 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 3936820c18f5bd212968c313a4b3d76e42b8dbac
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 22:34:36 2022 +0300
+
+    pdf fix [build]
+
+commit 582148fe6aa7c757211a67de61e2c7992fc6d351
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 18:52:49 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 7f8e750aa1f4ad7e1941bd91162166cd9a1e002e
+Merge: 2401992 4c74136
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 21:51:38 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 240199207c68dfabf825497c77bb0905f878e761
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 21:51:34 2022 +0300
+
+    Google console configs & resume & text to left corner [build]
+
+commit 4c741363fd2de19e06878120fee1fc90e97b2ddd
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 17:13:05 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit cfeb621c15d7a375299abb1a992172d6c3075f39
+Merge: 9623a86 211bf16
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 20:12:10 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 9623a86046e7445e75e2b50828a23be451c10cd1
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 20:12:04 2022 +0300
+
+    order change [build]
+
+commit 211bf16e28c7391c4b51de36bb0390d057379f1e
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 20:08:57 2022 +0300
+
+    Update README.md
+
+commit a90731861de3ef0ef4bd86eac592287862507f95
+Merge: 5a5f521 806cde6
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 20:08:19 2022 +0300
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 5a5f521604442671fb98b21f43376d03e864abed
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 20:08:16 2022 +0300
+
+    README.md update + picture to public
+
+commit 806cde6b153389ed8fd08d58527de8baf091146d
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 16:51:33 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit f3ad61773c2a04d0ab99a2b2afabe053ec909b19
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:50:36 2022 +0300
+
+    Linebreak ignore [build]
+
+commit 5750a59c8638279dfdc6147164c830d95e7cbeb7
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:48:47 2022 +0300
+
+    Export style changed [build]
+
+commit 02d52536a8ec5efc10eb9690378b1c2fb4eaf20d
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 19:45:49 2022 +0300
+
+    Update README.md
+
+commit 36a47b3878759e92f740439530394601f18afc2a
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 19:45:07 2022 +0300
+
+    Update README.md
+
+commit 6ea642e1ad2b4bec2bcf765dcd7a44e164160a6e
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:40:34 2022 +0300
+
+    Eslint added
+
+commit 4b9d4c83ea15636d3d4104fbccd6cbffe003fbbe
+Author: olliglorioso <olliglorioso@users.noreply.github.com>
+Date:   Sat Jul 30 16:20:30 2022 +0000
+
+    Built automatically by Github Action at .github/workflows/publish.yml
+
+commit 4a376a8c06371f4c37807ad196613990eaf2d783
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:19:32 2022 +0300
+
+    cd test [build]
+
+commit 874146268382824abfa3e60fe44cdcf9bfbff8f0
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:13:35 2022 +0300
+
+    test cd [build]
+
+commit a9aad9e126db51585f51a1773cd5b1d4869569d7
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:12:57 2022 +0300
+
+    test cd pt2 [build]
+
+commit 7182616148a10832e052e6a528ce90312d2f91b8
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:11:58 2022 +0300
+
+    test cd [build]
+
+commit b9ebbfba0d888005eeb9235ffbbc34f58dfdc073
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jul 30 19:02:39 2022 +0300
+
+    Main re-engineering (website is completely different)
+
+commit fe114d582ebb49f78869835dcb2f16e9fb54b418
+Merge: dfbd54c 5628f8b
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Wed Jun 29 13:04:56 2022 +0000
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit dfbd54ce37107529e9fe3159700c084d092ac640
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Wed Jun 29 13:04:49 2022 +0000
+
+    hide extras from about view
+
+commit 5628f8bb9589910324cc261ecb3f014b188dc49f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Tue Jun 28 11:28:55 2022 +0300
+
+    Update README.md
+
+commit 156cd3df11180a75f8ef95595d5fa2e36b96234c
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 15:16:06 2022 +0000
+
+    This commit was created with a publish script.
+
+commit e16e45934046750f76728f219aa0c96d727c7269
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 12:33:05 2022 +0000
+
+    Deleted coming sooner or later thing.
+
+commit 0065a5b9a65ef3a9db89fbff15c37f7b04e2c3b9
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 12:29:03 2022 +0000
+
+    Build.
+
+commit 519523707dc87a3b946fb04a06aa5d2fe6e46738
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 12:23:45 2022 +0000
+
+    Added markdown support for about-page.
+
+commit 7288b00580aeb935fab673bc3fabeb998fdf054f
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 12:07:01 2022 +0000
+
+    Markdown to its own component and some styling.
+
+commit f06e8746c79327ecef0e6196a2f38156796f4149
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Sat Jun 25 11:06:56 2022 +0000
+
+    Changed md library and added new library, with support for mathematical equations, pictures and syntax highlighting.
+
+commit bed835387f0b83256eafd3a054cd30fd3cfe39f2
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Fri Jun 24 21:35:32 2022 +0000
+
+    Beta of markdown integration with another github repository. In the future the blogtexts would be written on a folder in another repo, probably other texts as well.
+
+commit 5603d9b37ecd82e3c577b722ce4611b5d7a88192
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 23 21:43:19 2022 +0000
+
+    Added tags for Google Analytics.
+
+commit a277474322fb7999df6bef66371bc22310cea226
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 23 21:26:40 2022 +0000
+
+    Added google serch console verification.
+
+commit d24bb2113f17eeff616b369696df34528ea40ea2
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 12:49:57 2022 +0000
+
+    Added production build.2
+
+commit 694f29c433ce89dc084f42eb3a6fa13cdd8f3ff1
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 12:13:21 2022 +0000
+
+    Background color change, refactoring and possibility to disable extras (for slower network connection/computer power).
+
+commit 21732aafc64642ebfb90330048969d782951150c
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 11:13:34 2022 +0000
+
+    Major refactoring and eslint configuratioin.
+
+commit 53afbd37c6c56546d7044d893ef151cfc3c99479
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 09:29:33 2022 +0000
+
+    Added build.
+
+commit 0fcb84402cdee21192cc10158927a93cc294550e
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 09:23:13 2022 +0000
+
+    Added a model with red eyes to dark mode + no sidebar anymore.
+
+commit be6aeba6626dbbc0edd6d07aa9a0c829c41ccef5
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 09:19:48 2022 +0000
+
+    Added a model with red eyes to dark mode.
+
+commit e2586b93cf7c6a79cc9aae2a10c05fa40398e0bf
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 08:57:16 2022 +0000
+
+    Different sounds and different lightning when dark mode.
+
+commit 5e00b2a8b4d90b544b8e2bc67bf4d826b613ce53
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Tue Jun 21 08:31:09 2022 +0000
+
+    Added dark mode.
+
+commit e1d2a7b150a6abdf6dfaa49ff8afe1ff12ef274b
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Jun 20 21:13:16 2022 +0000
+
+    Added angular velocity on click
+
+commit 9960c082f9548e377de572229137ceaf28bd5ea3
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Jun 20 21:09:15 2022 +0000
+
+    Now the visitor can play with the head :)
+
+commit d7078b9347d586c7a6b59db30dc603274417614d
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Jun 20 19:24:41 2022 +0000
+
+    Added a funny, rotating head (mine). Turned out pretty good. Next step is to make it movable it with mouse. pt3
+
+commit 2860b985686871cf08c2f79d645201c3d9fa0e37
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Jun 20 19:23:59 2022 +0000
+
+    Added a funny, rotating head (mine). Turned out pretty good. Next step is to make it movable it with mouse.
+
+commit e1924afab8c9f7a3635c5e916833c174ef24dba1
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Mon Jun 20 19:22:10 2022 +0000
+
+    Added a funny, rotating head (mine). Turned out pretty good. Next step is to make it movable it with mouse.
+
+commit 5acf2a46e149d7a799b5047ccb644daf05ae3693
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Wed Jun 15 13:09:17 2022 +0000
+
+    Build
+
+commit 14493bebe9fbffa04cffd6785093c295d7486228
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Wed Jun 15 13:06:24 2022 +0000
+
+    Added possibility to download a csv. Now it's only a test pdf.
+
+commit 478690a44917be58a609076628032343891afb85
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Fri Jun 10 11:23:18 2022 +0000
+
+    Better mobile experience + email icon/link added.
+
+commit c66fafeb4206372e561fcea6659b7912b2466e35
+Merge: 4e4017c e5f413e
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 22:32:37 2022 +0000
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit 4e4017cdc0385aeb5161c5e7450c8618ccf57e2b
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 22:32:18 2022 +0000
+
+    Appbar to support mobile.
+
+commit e5f413e468a7b320310ac28115abcf57a2f2890f
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Fri Jun 10 00:31:17 2022 +0300
+
+    Update README.md
+
+commit 93fc2ecc0dc800c6e156d510353a3e456b652625
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 21:26:07 2022 +0000
+
+    Some changes to configs + UI changes to start from somewhere.
+
+commit b88584e4d71699c56e417c3bdc6a52b56589a3ce
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:44:16 2022 +0000
+
+    Production build updated. Need to do some pipeline for this.
+
+commit 0668c90ef4db60a685c401ee9694536c3ac61036
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:40:49 2022 +0000
+
+    Favicon change.
+
+commit 6edd39adb404a57870c33d14224cae008366f8ff
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:26:49 2022 +0000
+
+    Test GH pages
+
+commit 513e421d2aa32228c5c2ed5e8147827b05a8bbb5
+Merge: ce5113a 4cf376f
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:22:05 2022 +0000
+
+    Merge branch 'main' of https://github.com/olliglorioso/olliglorioso.github.io
+
+commit ce5113ac188ab7ca1d476d76de91502f8142d1b7
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:20:48 2022 +0000
+
+    Build path to Github pages -friendly folder.
+
+commit 4cf376f3520aa24ce910c7246fae1f3f82a89631
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Jun 9 22:17:27 2022 +0300
+
+    Update README.md
+
+commit 2d0f0c38db0c75cf8bfe727d17c95421d72ff67a
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:15:38 2022 +0000
+
+    Build react page for the first time.
+
+commit 41a67f8e6fff31ba30f91e5e4cd7d284ee1f1152
+Author: Olli Glorioso <olli.glorioso@avanio.com>
+Date:   Thu Jun 9 19:02:14 2022 +0000
+
+    React initialization.
+
+commit ee77abb9133610aa7baedb0e3327745a3208b2ed
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Jun 9 21:48:04 2022 +0300
+
+    Basic environment setup with devcontainer.
+
+commit ed7b4a2d4a31cf23ed8773952a24fab7d6702f25
+Author: Olli Glorioso <84347872+olliglorioso@users.noreply.github.com>
+Date:   Thu Jun 9 21:46:13 2022 +0300
+
+    Initial commit
