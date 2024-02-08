@@ -16,7 +16,7 @@ function App() {
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
 	const [play4, setPlay4] = useState(false)
-	const stuffColor = { color: isDark ? lightColor : darkColor, fontFamily: "Courier New" }
+	const stuffColor = { color: isDark ? lightColor : darkColor, fontFamily: "Arial", fontWeight: "bold" }
 	const change = window.innerHeight >= window.innerWidth ? "-10vw" : "-10vh"
 	// Mobile not implemented yet.
 	let isMobile = false
@@ -27,9 +27,8 @@ function App() {
 		<div>
 			<ProjectsModal showProjects={!isMobile} open={projectsModalOpen} handleClose={() => setProjectsModalOpen(false)} />
 			<div className="name_title" style={stuffColor}>Olli Glorioso</div>
-			<div className="text" style={stuffColor}>Software engineering & data science.</div>
+			<div className="text" style={stuffColor}>Software engineering, cloud computing, data science, business, languages, people.</div>
 			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/CV_Olli_Glorioso.pdf`} download="olliglorioso_resume" >Résumé</a></div>
-			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}` }} href={`${process.env.PUBLIC_URL}/olliglorioso_pic.jpg`} >Picture of me</a></div>
 			<div><a className="text" style={{  ...stuffColor, borderBottom: `1px solid ${stuffColor.color}`, cursor: "pointer" }} onClick={() => setProjectsModalOpen(true)}>Projects</a></div>
 			<div className='container'>
 				<div className='container_row'>
