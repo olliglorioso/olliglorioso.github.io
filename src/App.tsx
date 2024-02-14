@@ -11,7 +11,6 @@ const mL = { marginLeft: 9 }
 
 function App() {
 	const [projectsModalOpen, setProjectsModalOpen] = useState(false)
-	if (isDark) document.body.setAttribute("style", `background: ${darkColor};`)
 	const [play1, setPlay1] = useState(false)
 	const [play2, setPlay2] = useState(false)
 	const [play3, setPlay3] = useState(false)
