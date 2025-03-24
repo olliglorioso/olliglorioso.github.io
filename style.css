@@ -98,11 +98,11 @@ html {
 }
 body {
   max-width:800px;
-  margin:25px auto;
+  margin:5px auto;
 }
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
-  padding:25px;
+  padding:5px;
   color:#FFFFFF; 
 }
 iframe {
